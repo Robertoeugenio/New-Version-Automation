@@ -1,0 +1,38 @@
+<Cache>
+  <Project configuration="" />
+  <DesignComponents>
+    <DesignComponent id="UniversalWebAdapter-8D8DE50B28552EF" className="ACMESystem" type="Adapter" isPublic="True" screenShots="ACMESystem.screenshots.resx">
+      <BuildReferences>
+        <BuildReference value="DefaultWindowFactoryConfiguration.xml" />
+        <BuildReference value="openspan.ini" />
+        <BuildReference value="OpenSpan.x32.sys" />
+        <BuildReference value="OpenSpan.x64.sys" />
+        <BuildReference value="Pega.GlobalAllocator.x32.dll" />
+        <BuildReference value="Pega.GlobalAllocator.x64.dll" />
+        <BuildReference value="Pega.Scout.x32.dll" />
+        <BuildReference value="Pega.Scout.x64.dll" />
+        <BuildReference value="Pega.Security.x32.dll" />
+        <BuildReference value="Pega.Security.x64.dll" />
+        <BuildReference value="Pega.SharedMemory.x32.dll" />
+        <BuildReference value="Pega.SharedMemory.x64.dll" />
+        <BuildReference value="Pega.Sinon.x32.dll" />
+        <BuildReference value="Pega.Sinon.x64.dll" />
+        <BuildReference value="Pega.Utilities.x32.dll" />
+        <BuildReference value="Pega.Utilities.x64.dll" />
+        <BuildReference value="Pega.WER.x32.dll" />
+        <BuildReference value="Pega.WER.x64.dll" />
+        <BuildReference value="Pega.Windows.Broker.x32.dll" />
+        <BuildReference value="Pega.Windows.Broker.x64.dll" />
+        <BuildReference value="Pega.WinQueue.x32.dll" />
+        <BuildReference value="Pega.WinQueue.x64.dll" />
+      </BuildReferences>
+    </DesignComponent>
+    <DesignComponent id="Automator-8D8E5756E4A97C8" className="btnTestClicked" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="DesignForm-8D8E46A4FF4EC54" className="frmTest" type="WinForm" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D8E5714D065B0C" className="ACME_P_GetNearestStore" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D8E561DC276930" className="ACME_P_NavToHome" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D8E56A1BE3B9AC" className="ACME_P_SearchByZip" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D8E55BD1146088" className="ACME_P_SignIn" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="GlobalContainer-8D8E855CDDFD15A" className="_GC_ACME" type="GlobalContainer" isPublic="True" screenShots="" />
+  </DesignComponents>
+</Cache>

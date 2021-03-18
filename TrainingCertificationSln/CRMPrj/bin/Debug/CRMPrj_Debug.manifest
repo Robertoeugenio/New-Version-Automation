@@ -1,0 +1,8 @@
+<DeploymentManifest version="5.0">
+  <CompositeStudioProject name="CRMPrj" fileName="CRMPrj.dll" assemblyName="CRMPrj.dll" id="Project-8D8DDA51F9DEA2F" version="19.1.75.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="C6F0296D7EBBC8BCC9F1E6CA0D908B80BC0970">
+    <Assemblies>
+      <Assembly value="CRMPrj.dll" digest="B1C25D6892407DE57C22CEC40F5E7009CCEACF" />
+      <Assembly value="CRMPrj.pdb" digest="C54E4CC15AFB9FCF6FB7906AC7BD0E3018DF78" />
+    </Assemblies>
+  </CompositeStudioProject>
+</DeploymentManifest>

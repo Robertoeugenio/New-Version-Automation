@@ -1,0 +1,68 @@
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\ACMESearchPrj.ScreenShots.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\OpenSpan.Adapters.Virtual.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\RuntimeConfig.xml
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\DefaultWindowFactoryConfiguration.xml
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\openspan.ini
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\OpenSpan.x32.sys
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\OpenSpan.x64.sys
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.GlobalAllocator.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.GlobalAllocator.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Scout.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Scout.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Security.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Security.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.SharedMemory.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.SharedMemory.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Sinon.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Sinon.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Utilities.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Utilities.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.WER.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.WER.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Windows.Broker.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Windows.Broker.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.WinQueue.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.WinQueue.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\ACMESearchPrj.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\ACMESearchPrj.pdb
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ImportTypeMap.resources
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\MessageManifest.resources
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESearchPrj.osproj.GenerateResource.Cache
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESearchPrj.ScreenShots.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESystem.screenshots.resx
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESearchPrj.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESearchPrj.pdb
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\ACMESearchPrj.ScreenShots.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\OpenSpan.Adapters.Virtual.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\RuntimeConfig.xml
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\DefaultWindowFactoryConfiguration.xml
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\openspan.ini
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\OpenSpan.x32.sys
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\OpenSpan.x64.sys
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.GlobalAllocator.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.GlobalAllocator.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Scout.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Scout.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Security.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Security.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.SharedMemory.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.SharedMemory.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Sinon.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Sinon.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Utilities.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Utilities.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.WER.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.WER.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Windows.Broker.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.Windows.Broker.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.WinQueue.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\Pega.WinQueue.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\ACMESearchPrj.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\bin\Debug\ACMESearchPrj.pdb
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ImportTypeMap.resources
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\MessageManifest.resources
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESearchPrj.osproj.GenerateResource.Cache
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESearchPrj.ScreenShots.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESystem.screenshots.resx
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESearchPrj.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\ACMESearchPrj\obj\Debug\ACMESearchPrj.pdb

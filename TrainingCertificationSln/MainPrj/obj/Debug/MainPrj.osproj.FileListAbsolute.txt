@@ -1,0 +1,174 @@
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\ACMESearchPrj.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\CRMPrj.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.Virtual.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\ACMESearchPrj.ScreenShots.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\CRMPrj.ScreenShots.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\RuntimeConfig.xml
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\DefaultWindowFactoryConfiguration.xml
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\openspan.ini
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.x32.sys
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.x64.sys
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.GlobalAllocator.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.GlobalAllocator.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Scout.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Scout.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Security.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Security.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.SharedMemory.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.SharedMemory.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Sinon.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Sinon.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Utilities.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Utilities.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.WER.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.WER.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Windows.Broker.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Windows.Broker.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.WinQueue.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.WinQueue.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.WinInet.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.WinInet.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Translators.InternetExplorer.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Translators.InternetExplorer.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.ActiveX.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.ActiveX.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Native.Remoting.x32.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Native.Remoting.x64.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Virtual.Interfaces.delegates.tlb
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Virtual.Interfaces.tlb
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Remoting.tlb
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\MainPrj.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\MainPrj.pdb
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.ExpressTranslators.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.Web.Universal.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.Web.WebBase.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.Windows.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.Web.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.ActiveX.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.WinInet.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.DotNet.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Events.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Server.Client.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\MimeKit.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\MailKit.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\DevExpress.XtraEditors.v6.3.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\DevExpress.Utils.v6.3.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.IPC.Interop.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Utilities.Interop.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.IPC.Services.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Threading.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\System.Web.Http.SelfHost.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\System.Web.Http.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.WinQueue.Interop.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Remoting.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Virtual.Interfaces.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Virtual.Web.Interfaces.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.TranslatorIpc.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Microsoft.mshtml.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Interop.SHDocVw.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.DotNet.Interfaces.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Xray.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Interop.UIAutomationClient.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\System.Data.SQLite.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Interop.EventSystemLib.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Interop.SensEvents.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\DevExpress.Data.v6.3.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\ACMESearchPrj.pdb
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\CRMPrj.pdb
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.Windows.xml
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\MainPrj.osprojResolveAssemblyReference.cache
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\ImportTypeMap.resources
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\MainPrj.osproj.GenerateResource.Cache
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\MainPrj.dll
+C:\Users\Roberto\Desktop\ultima versão\new-machine-trainingspan-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\MainPrj.pdb
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\ACMESearchPrj.ScreenShots.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.Virtual.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\RuntimeConfig.xml
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\DefaultWindowFactoryConfiguration.xml
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\openspan.ini
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.x32.sys
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.x64.sys
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.GlobalAllocator.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.GlobalAllocator.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Scout.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Scout.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Security.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Security.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.SharedMemory.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.SharedMemory.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Sinon.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Sinon.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Utilities.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Utilities.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.WER.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.WER.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Windows.Broker.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Windows.Broker.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.WinQueue.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.WinQueue.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\CRMPrj.ScreenShots.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.WinInet.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.WinInet.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Translators.InternetExplorer.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Translators.InternetExplorer.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.ActiveX.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.ActiveX.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Native.Remoting.x32.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Native.Remoting.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Virtual.Interfaces.delegates.tlb
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Virtual.Interfaces.tlb
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Remoting.tlb
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\ACMESearchPrj.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\CRMPrj.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\MainPrj.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\MainPrj.pdb
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.ExpressTranslators.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.Web.Universal.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.Web.WebBase.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.Windows.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.Web.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.ActiveX.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.WinInet.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.DotNet.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Events.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Server.Client.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\MimeKit.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\MailKit.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\DevExpress.XtraEditors.v6.3.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\DevExpress.Utils.v6.3.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.IPC.Interop.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Utilities.Interop.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.IPC.Services.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Threading.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\System.Web.Http.SelfHost.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\System.Web.Http.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.WinQueue.Interop.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Remoting.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Virtual.Interfaces.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Virtual.Web.Interfaces.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.TranslatorIpc.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Microsoft.mshtml.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Interop.SHDocVw.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.DotNet.Interfaces.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Pega.Xray.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Interop.UIAutomationClient.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\System.Data.SQLite.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Interop.EventSystemLib.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Interop.SensEvents.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\DevExpress.Data.v6.3.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\ACMESearchPrj.pdb
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\CRMPrj.pdb
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.Windows.xml
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\MainPrj.osprojResolveAssemblyReference.cache
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\ImportTypeMap.resources
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\MainPrj.osproj.GenerateResource.Cache
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\MainPrj.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\MainPrj.pdb
