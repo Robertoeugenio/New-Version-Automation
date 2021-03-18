@@ -270,6 +270,7 @@
                         <MatchingIndex Value="0" />
                         <PegaId Value="0" />
                         <TargetTypeString Value="OpenSpan.Adapters.Virtual.VirtualTargets.VirtualMdiChild, OpenSpan.Adapters.Virtual" />
+                        <UseKeys Value="True" />
                         <XrayGuid Value="" />
                         <Content Name="Controls">
                           <Items>

@@ -4,10 +4,10 @@
     <Assembly Value="OpenSpan.Automation" />
     <AssemblyReferences>
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Automation, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Interactions.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
-      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences />
@@ -44,7 +44,7 @@
         </Objects>
         <Links>
           <Link PartID="3" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="1" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E93EC0618B26\ConnectableEvent-8D8E93ECC0450F3" MemberComponentId="Automator-8D8E93EC0618B26\EMPTY" />
+            <From PartID="1" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E93EC0618B26\ConnectableEvent-8D8E93ECC0450F3" MemberComponentId="Automator-8D8E93EC0618B26\ConnectableEvent-8D8E93ECC0450F3" />
             <To PartID="2" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E93EC0618B26\ConnectableMethod-8D8E93EF2755436" MemberComponentId="Automator-8D8E93EC0618B26\ConnectableMethod-8D8E93EF2755436" />
             <LinkPoints>
               <Point value="205, 165" />
@@ -56,7 +56,7 @@
             </LinkPoints>
           </Link>
           <Link PartID="4" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="1" PortName="Key" PortType="Property" ConnectableId="Automator-8D8E93EC0618B26\ConnectableEvent-8D8E93ECC0450F3" MemberComponentId="Automator-8D8E93EC0618B26\EMPTY" />
+            <From PartID="1" PortName="Key" PortType="Property" ConnectableId="Automator-8D8E93EC0618B26\ConnectableEvent-8D8E93ECC0450F3" MemberComponentId="Automator-8D8E93EC0618B26\ConnectableEvent-8D8E93ECC0450F3" />
             <To PartID="2" PortName="param1" PortType="Property" ConnectableId="Automator-8D8E93EC0618B26\ConnectableMethod-8D8E93EF2755436" MemberComponentId="Automator-8D8E93EC0618B26\ConnectableMethod-8D8E93EF2755436" />
             <LinkPoints>
               <Point value="205, 199" />
@@ -68,7 +68,9 @@
             </LinkPoints>
           </Link>
         </Links>
-        <Comments />
+        <Comments>
+          <Comment Text="automation that updates the UI when an interaction activates" PartID="5" Position="147, 59" UnanchoredOffset="-38, 47" BaseWidth="30" />
+        </Comments>
         <SubGraphs />
       </AutomationDocument>
       <ShowDesignCompNames Value="True" />

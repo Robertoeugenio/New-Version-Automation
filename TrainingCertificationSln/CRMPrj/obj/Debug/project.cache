@@ -72,11 +72,13 @@
         <BuildReference value="Pega.WinQueue.x64.dll" />
       </BuildReferences>
     </DesignComponent>
-    <DesignComponent id="Automator-8D8E89D29ADB8C1" className="CRM_E_IntMgr_InteractionStarted" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D8E9F13C79928C" className="CRM_E_ActivateMDIWin_ActivityStarted" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E93E1B4BE957" className="CRM_E_CRMChild_Activated" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E885DE61584A" className="CRM_E_CRMChild_Closing" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E884D37F8321" className="CRM_E_CRMChild_Created" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E30F1807D26C" className="CRM_E_CRMfrmLogin_Created" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="Automator-8D8E9FF30BC29B6" className="CRM_E_IntMgr_InteractionStarted" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="GlobalContainer-8D8E7CA979738F7" className="_GC_CRM" type="GlobalContainer" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E9EA5441B4BC" className="CRM_E_GetCustInfo_ActivityStarted" type="Automation" isPublic="True" screenShots="">
       <DynamicClasses>
         <DynamicClass id="BooleanExpression-8D8E9EA9507891D" fileExt=".cs">
@@ -88,6 +90,5 @@
         </DynamicClass>
       </DynamicClasses>
     </DesignComponent>
-    <DesignComponent id="GlobalContainer-8D8E7CA979738F7" className="_GC_CRM" type="GlobalContainer" isPublic="True" screenShots="" />
   </DesignComponents>
 </Cache>

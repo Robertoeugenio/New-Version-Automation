@@ -1,12 +1,12 @@
 <DeploymentManifest version="5.0">
-  <CompositeStudioProject name="MainPrj" fileName="MainPrj.dll" assemblyName="MainPrj.dll" id="Project-8D8E7C0E1F4164A" version="19.1.75.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="C91C1E899785BB7851FF0038223A68A7AFF099">
+  <CompositeStudioProject name="MainPrj" fileName="MainPrj.dll" assemblyName="MainPrj.dll" id="Project-8D8E7C0E1F4164A" version="19.1.75.0" deploymentVersion="1.0" configuration="" createdWith="Build" obfuscated="False" runtime="True" digest="CED6874CB57B487E42266E7F2D528A69B81AF7">
     <Assemblies>
-      <Assembly value="MainPrj.dll" digest="E3A5E67C820463653BEAF4CDD957703E3DAB6D" />
-      <Assembly value="MainPrj.pdb" digest="C21B034854CCFA1EAF69883D5ECFB75EDA0E22" />
-      <Assembly value="ACMESearchPrj.dll" digest="D3C7E30A8E63ACC13A8DBA5DD27EE6AD3B75B3" />
-      <Assembly value="ACMESearchPrj.pdb" digest="77791BB62F8766EDD6CDF743CB3A357900EF52" />
-      <Assembly value="CRMPrj.dll" digest="B1C25D6892407DE57C22CEC40F5E7009CCEACF" />
-      <Assembly value="CRMPrj.pdb" digest="C54E4CC15AFB9FCF6FB7906AC7BD0E3018DF78" />
+      <Assembly value="MainPrj.dll" digest="3B7F953835758149765F5875E3A3CD8841051E" />
+      <Assembly value="MainPrj.pdb" digest="08CB36F907B992CF46269600AD805759E372AD" />
+      <Assembly value="ACMESearchPrj.dll" digest="4AA0FD193B5072789A735BA4433ED53D3FB217" />
+      <Assembly value="ACMESearchPrj.pdb" digest="869DE968885529DE79F6CD06B6270D15DB841F" />
+      <Assembly value="CRMPrj.dll" digest="F8AD2B9FF4EBBF35D07A4665D170B195067702" />
+      <Assembly value="CRMPrj.pdb" digest="C56E9EF75C6334A079F973FDBF0CCD828272A9" />
     </Assemblies>
   </CompositeStudioProject>
 </DeploymentManifest>

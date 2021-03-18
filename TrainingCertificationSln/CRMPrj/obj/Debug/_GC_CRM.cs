@@ -8,6 +8,8 @@ namespace CRMPrj
 // GlobalContainer-8D8E7CA979738F7
 [OpenSpan.Design.ComponentIdentityAttribute("GlobalContainer-8D8E7CA979738F7")]
 [System.ComponentModel.ToolboxItemAttribute(false)]
+[OpenSpan.Runtime.RuntimeReferenceAttribute("System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c5619" +
+	"34e089")]
 public sealed class _GC_CRM : OpenSpan.Automation.GlobalContainer
 {
 	
@@ -19,6 +21,9 @@ public sealed class _GC_CRM : OpenSpan.Automation.GlobalContainer
 	
 	[OpenSpan.Design.ComponentIdentityAttribute("GlobalContainer-8D8E7CA979738F7\\Activity-8D8E89AB212BC15")]
 	public OpenSpan.Interactions.Controls.Activity CRMactUpdateDisplay;
+	
+	[OpenSpan.Design.ComponentIdentityAttribute("GlobalContainer-8D8E7CA979738F7\\Activity-8D8EA0476CB5F0D")]
+	public OpenSpan.Interactions.Controls.Activity CRMactActivateMDIWin;
 	
 	public _GC_CRM()
 	{
@@ -62,9 +67,19 @@ public sealed class _GC_CRM : OpenSpan.Automation.GlobalContainer
 		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo14 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
 		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo15 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
 		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo16 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo10 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo17 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo18 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo19 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo20 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo21 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo22 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo23 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo24 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
 		this.IntMgr = new OpenSpan.Interactions.Controls.InteractionManager();
 		this.CRMactGetCustInfo = new OpenSpan.Interactions.Controls.Activity();
 		this.CRMactUpdateDisplay = new OpenSpan.Interactions.Controls.Activity();
+		this.CRMactActivateMDIWin = new OpenSpan.Interactions.Controls.Activity();
 		// 
 		// Initialize design component
 		// 
@@ -79,6 +94,7 @@ public sealed class _GC_CRM : OpenSpan.Automation.GlobalContainer
 		this.SetId(this.IntMgr, new OpenSpan.Design.ComponentIdentity("InteractionManager-8D8E7CD6FC6932A"));
 		this.SetId(this.CRMactGetCustInfo, new OpenSpan.Design.ComponentIdentity("Activity-8D8E89AB0E0A47E"));
 		this.SetId(this.CRMactUpdateDisplay, new OpenSpan.Design.ComponentIdentity("Activity-8D8E89AB212BC15"));
+		this.SetId(this.CRMactActivateMDIWin, new OpenSpan.Design.ComponentIdentity("Activity-8D8EA0476CB5F0D"));
 		// 
 		// _GC_CRM
 		// 
@@ -214,7 +230,7 @@ public sealed class _GC_CRM : OpenSpan.Automation.GlobalContainer
 		// 
 		// CRMactUpdateDisplay
 		// 
-		this.CRMactUpdateDisplay.ActivityName = "Update Display";
+		this.CRMactUpdateDisplay.ActivityName = "UpdateDisplay";
 		dynamicpropertyinfo9.IsSerializable = true;
 		dynamicpropertyinfo9.NoInputConvesion = false;
 		dynamicpropertyinfo9.Source = "";
@@ -255,12 +271,56 @@ public sealed class _GC_CRM : OpenSpan.Automation.GlobalContainer
 		this.CRMactUpdateDisplay.DynamicMembers.Add(dynamicmethodinfo15);
 		this.CRMactUpdateDisplay.DynamicMembers.Add(dynamicmethodinfo16);
 		// 
+		// CRMactActivateMDIWin
+		// 
+		this.CRMactActivateMDIWin.ActivityName = " ActivateMDIWin";
+		dynamicpropertyinfo10.IsSerializable = true;
+		dynamicpropertyinfo10.NoInputConvesion = false;
+		dynamicpropertyinfo10.Source = "";
+		dynamicpropertyinfo10.ValidateConnectionCallback = null;
+		dynamicpropertyinfo10.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo10.CodeDomData = resources.GetString("__GC_CRM_34_");
+		dynamicmethodinfo17.Source = "";
+		dynamicmethodinfo17.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo17.CodeDomData = resources.GetString("__GC_CRM_35_");
+		dynamicmethodinfo18.Source = "";
+		dynamicmethodinfo18.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo18.CodeDomData = resources.GetString("__GC_CRM_36_");
+		dynamicmethodinfo19.Source = "";
+		dynamicmethodinfo19.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo19.CodeDomData = resources.GetString("__GC_CRM_37_");
+		dynamicmethodinfo20.Source = "";
+		dynamicmethodinfo20.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo20.CodeDomData = resources.GetString("__GC_CRM_38_");
+		dynamicmethodinfo21.Source = "";
+		dynamicmethodinfo21.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo21.CodeDomData = resources.GetString("__GC_CRM_39_");
+		dynamicmethodinfo22.Source = "";
+		dynamicmethodinfo22.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo22.CodeDomData = resources.GetString("__GC_CRM_40_");
+		dynamicmethodinfo23.Source = "";
+		dynamicmethodinfo23.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo23.CodeDomData = resources.GetString("__GC_CRM_41_");
+		dynamicmethodinfo24.Source = "";
+		dynamicmethodinfo24.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo24.CodeDomData = resources.GetString("__GC_CRM_42_");
+		this.CRMactActivateMDIWin.DynamicMembers.Add(dynamicpropertyinfo10);
+		this.CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo17);
+		this.CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo18);
+		this.CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo19);
+		this.CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo20);
+		this.CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo21);
+		this.CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo22);
+		this.CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo23);
+		this.CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo24);
+		// 
 		// Add components
 		// 
 		this.mComponents = new System.Collections.Generic.List<System.ComponentModel.IComponent>(20);
 		this.Components.Add(this.IntMgr);
 		this.Components.Add(this.CRMactGetCustInfo);
 		this.Components.Add(this.CRMactUpdateDisplay);
+		this.Components.Add(this.CRMactActivateMDIWin);
 	}
 	
 	private System.Collections.Generic.List<System.ComponentModel.IComponent> mComponents;
@@ -462,7 +522,7 @@ public sealed class _GC_CRM : OpenSpan.Automation.GlobalContainer
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		OpenSpan.Interactions.Controls.Activity CRMactUpdateDisplay = new OpenSpan.Interactions.Controls.Activity();
 		this.SetId(CRMactUpdateDisplay, new OpenSpan.Design.ComponentIdentity("Activity-8D8E89AB212BC15"));
-		CRMactUpdateDisplay.ActivityName = "Update Display";
+		CRMactUpdateDisplay.ActivityName = "UpdateDisplay";
 		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo1 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
 		dynamicpropertyinfo1.IsSerializable = true;
 		dynamicpropertyinfo1.NoInputConvesion = false;
@@ -515,6 +575,67 @@ public sealed class _GC_CRM : OpenSpan.Automation.GlobalContainer
 		// Result
 		// 
 		return CRMactUpdateDisplay;
+	}
+	
+	internal OpenSpan.Interactions.Controls.Activity Create_CRMactActivateMDIWin(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(_GC_CRM));
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.Interactions.Controls.Activity CRMactActivateMDIWin = new OpenSpan.Interactions.Controls.Activity();
+		this.SetId(CRMactActivateMDIWin, new OpenSpan.Design.ComponentIdentity("Activity-8D8EA0476CB5F0D"));
+		CRMactActivateMDIWin.ActivityName = " ActivateMDIWin";
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo1 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		dynamicpropertyinfo1.IsSerializable = true;
+		dynamicpropertyinfo1.NoInputConvesion = false;
+		dynamicpropertyinfo1.Source = "";
+		dynamicpropertyinfo1.ValidateConnectionCallback = null;
+		dynamicpropertyinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo1.CodeDomData = _resources_.GetString("__GC_CRM_34_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo1 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo1.Source = "";
+		dynamicmethodinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo1.CodeDomData = _resources_.GetString("__GC_CRM_35_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo2 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo2.Source = "";
+		dynamicmethodinfo2.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo2.CodeDomData = _resources_.GetString("__GC_CRM_36_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo3 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo3.Source = "";
+		dynamicmethodinfo3.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo3.CodeDomData = _resources_.GetString("__GC_CRM_37_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo4 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo4.Source = "";
+		dynamicmethodinfo4.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo4.CodeDomData = _resources_.GetString("__GC_CRM_38_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo5 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo5.Source = "";
+		dynamicmethodinfo5.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo5.CodeDomData = _resources_.GetString("__GC_CRM_39_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo6 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo6.Source = "";
+		dynamicmethodinfo6.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo6.CodeDomData = _resources_.GetString("__GC_CRM_40_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo7 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo7.Source = "";
+		dynamicmethodinfo7.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo7.CodeDomData = _resources_.GetString("__GC_CRM_41_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo8 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo8.Source = "";
+		dynamicmethodinfo8.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo8.CodeDomData = _resources_.GetString("__GC_CRM_42_");
+		CRMactActivateMDIWin.DynamicMembers.Add(dynamicpropertyinfo1);
+		CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo1);
+		CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo2);
+		CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo3);
+		CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo4);
+		CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo5);
+		CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo6);
+		CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo7);
+		CRMactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo8);
+		// 
+		// Result
+		// 
+		return CRMactActivateMDIWin;
 	}
 }
 

@@ -241,8 +241,8 @@
             <From PartID="19" PortName="This" PortType="Property" ConnectableId="Automator-8D8E8980668067B\ConnectableProperties-8D8E898EFF814BF" MemberComponentId="Automator-8D8E8980668067B\HiddenTypeProxy-8D8E8981488A3C0" />
             <To PartID="11" PortName="_SmartKey%GlobalContainer-8D8E7CAB540ACF2\InteractionManager-8D8E7CEFABF9F31%Key%Value" PortType="Property" ConnectableId="Automator-8D8E8980668067B\ConnectableProperties-8D8E898991ABA79" MemberComponentId="Automator-8D8E8980668067B\ConnectableProperties-8D8E898991ABA79" />
             <LinkPoints>
-              <Point value="687, 142" />
-              <Point value="697, 142" />
+              <Point value="685, 142" />
+              <Point value="695, 142" />
               <Point value="700, 142" />
               <Point value="700, 99" />
               <Point value="715, 99" />
@@ -361,9 +361,6 @@
         <Comments />
         <SubGraphs />
       </AutomationDocument>
-      <DocumentPosition Value="Binary">
-        <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAASU1RAAAAAAL</Binary>
-      </DocumentPosition>
       <DocumentScale Value="0.6983373" />
       <ShowDesignCompNames Value="True" />
       <Content Name="DynamicMembers">

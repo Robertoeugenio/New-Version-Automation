@@ -4,11 +4,11 @@
     <Assembly Value="OpenSpan.Automation" />
     <AssemblyReferences>
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Automation, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Interactions.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
-      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences />
@@ -49,8 +49,8 @@
             <DisplayName Value="ActivateInteraction" />
             <ConnectableUniqueId Value="Automator-8D8E93E1B4BE957\ConnectableMethod-8D8E93E94C9F87F" />
             <PartID Value="3" />
-            <Left Value="360" />
-            <Top Value="180" />
+            <Left Value="280" />
+            <Top Value="200" />
             <Collapsed Value="False" />
             <WillExecute Value="True" />
             <InstanceName Value="IntMgr" />
@@ -59,15 +59,15 @@
         </Objects>
         <Links>
           <Link PartID="4" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="1" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E93E1B4BE957\ConnectableEvent-8D8E93E5576CB8D" MemberComponentId="Automator-8D8E93E1B4BE957\EMPTY" />
+            <From PartID="1" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E93E1B4BE957\ConnectableEvent-8D8E93E5576CB8D" MemberComponentId="Automator-8D8E93E1B4BE957\ConnectableEvent-8D8E93E5576CB8D" />
             <To PartID="3" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E93E1B4BE957\ConnectableMethod-8D8E93E94C9F87F" MemberComponentId="Automator-8D8E93E1B4BE957\ConnectableMethod-8D8E93E94C9F87F" />
             <LinkPoints>
               <Point value="208, 225" />
               <Point value="218, 225" />
-              <Point value="287, 225" />
-              <Point value="287, 225" />
-              <Point value="355, 225" />
-              <Point value="365, 225" />
+              <Point value="220, 225" />
+              <Point value="220, 245" />
+              <Point value="275, 245" />
+              <Point value="285, 245" />
             </LinkPoints>
           </Link>
           <Link PartID="5" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -76,14 +76,16 @@
             <LinkPoints>
               <Point value="249, 322" />
               <Point value="259, 322" />
-              <Point value="317, 322" />
-              <Point value="317, 242" />
-              <Point value="355, 242" />
-              <Point value="365, 242" />
+              <Point value="260, 322" />
+              <Point value="260, 262" />
+              <Point value="275, 262" />
+              <Point value="285, 262" />
             </LinkPoints>
           </Link>
         </Links>
-        <Comments />
+        <Comments>
+          <Comment Text="automation that activates an interaction when a window activates" PartID="6" Position="156, 105" UnanchoredOffset="-28, 65" BaseWidth="30" />
+        </Comments>
         <SubGraphs />
       </AutomationDocument>
       <ShowDesignCompNames Value="True" />
@@ -97,6 +99,13 @@
       <MemberDetails Value=".Activated Event" />
       <Content Name="KeyInfos">
         <Items>
+          <OpenSpan.Automation.KeyInfo>
+            <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
+            <KeyName Value="Active" />
+            <KeyObjectTypeName Value="" />
+            <KeyType Value="Normal" />
+            <SetUpstream Value="False" />
+          </OpenSpan.Automation.KeyInfo>
           <OpenSpan.Automation.KeyInfo>
             <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             <KeyName Value="Active" />

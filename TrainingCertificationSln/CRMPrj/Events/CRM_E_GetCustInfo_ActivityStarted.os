@@ -3,15 +3,15 @@
     <Type Value="OpenSpan.Automation.Automator" />
     <Assembly Value="OpenSpan.Automation" />
     <AssemblyReferences>
-      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Automation, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Interactions.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Script, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
-      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     </AssemblyReferences>
     <DynamicAssemblyReferences>
       <Assembly Value="BooleanExpression-8D8E9EA9507891D" Type="Dynamic.BooleanExpression_8D8E9EA9507891D.Expression" />
@@ -25,28 +25,6 @@
         <Name Value="" />
         <Size Value="5000, 5000" />
         <Objects>
-          <ConnectionBlock>
-            <DisplayName Value="Activity.ActivityStarted" />
-            <ConnectableUniqueId Value="Automator-8D8E9EA5441B4BC\ConnectableEvent-8D8E9EA712D2C45" />
-            <PartID Value="1" />
-            <Left Value="40" />
-            <Top Value="40" />
-            <Collapsed Value="False" />
-            <WillExecute Value="True" />
-            <InstanceName Value="CRMactGetCustInfo" />
-            <OverriddenIds />
-          </ConnectionBlock>
-          <ConnectionBlock>
-            <DisplayName Value="Properties" />
-            <ConnectableUniqueId Value="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8E9EA81DD2839" />
-            <PartID Value="2" />
-            <Left Value="320" />
-            <Top Value="40" />
-            <Collapsed Value="False" />
-            <WillExecute Value="True" />
-            <InstanceName Value="CRMlblAcctNum" />
-            <OverriddenIds />
-          </ConnectionBlock>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" />
             <PartID Value="5" />
@@ -93,6 +71,7 @@
             <InstanceName Value="CRMlblAcctNum" />
             <UpstreamKeyedIds>
               <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
+              <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
             </UpstreamKeyedIds>
             <OverriddenIds />
           </ConnectionBlock>
@@ -106,6 +85,7 @@
             <WillExecute Value="True" />
             <InstanceName Value="CRMtxtCity" />
             <UpstreamKeyedIds>
+              <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
               <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             </UpstreamKeyedIds>
             <OverriddenIds />
@@ -120,6 +100,7 @@
             <WillExecute Value="True" />
             <InstanceName Value="CRMtxtName" />
             <UpstreamKeyedIds>
+              <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
               <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             </UpstreamKeyedIds>
             <OverriddenIds />
@@ -134,6 +115,7 @@
             <WillExecute Value="True" />
             <InstanceName Value="CRMtxtState" />
             <UpstreamKeyedIds>
+              <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
               <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             </UpstreamKeyedIds>
             <OverriddenIds />
@@ -148,6 +130,7 @@
             <WillExecute Value="True" />
             <InstanceName Value="CRMtxtStreetAdd" />
             <UpstreamKeyedIds>
+              <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
               <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             </UpstreamKeyedIds>
             <OverriddenIds />
@@ -162,6 +145,7 @@
             <WillExecute Value="True" />
             <InstanceName Value="CRMtxtZip" />
             <UpstreamKeyedIds>
+              <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
               <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             </UpstreamKeyedIds>
             <OverriddenIds />
@@ -177,41 +161,39 @@
             <InstanceName Value="IntMgr" />
             <OverriddenIds />
           </ConnectionBlock>
+          <ConnectionBlock>
+            <DisplayName Value="Activity.ActivityStarted" />
+            <ConnectableUniqueId Value="Automator-8D8E9EA5441B4BC\ConnectableEvent-8D8EA15F5BA6A1A" />
+            <PartID Value="38" />
+            <Left Value="60" />
+            <Top Value="20" />
+            <Collapsed Value="False" />
+            <WillExecute Value="True" />
+            <InstanceName Value="CRMactGetCustInfo" />
+            <OverriddenIds />
+          </ConnectionBlock>
+          <ConnectionBlock>
+            <DisplayName Value="Properties" />
+            <ConnectableUniqueId Value="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8EA1A41ED5D24" />
+            <PartID Value="46" />
+            <Left Value="320" />
+            <Top Value="20" />
+            <Collapsed Value="False" />
+            <WillExecute Value="True" />
+            <InstanceName Value="CRMlblAcctNum" />
+            <OverriddenIds />
+          </ConnectionBlock>
         </Objects>
         <Links>
-          <Link PartID="3" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="1" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableEvent-8D8E9EA712D2C45" MemberComponentId="Automator-8D8E9EA5441B4BC\EMPTY" />
-            <To PartID="2" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8E9EA81DD2839" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8E9EA81DD2839" />
-            <LinkPoints>
-              <Point value="212, 85" />
-              <Point value="222, 85" />
-              <Point value="268, 85" />
-              <Point value="268, 85" />
-              <Point value="315, 85" />
-              <Point value="325, 85" />
-            </LinkPoints>
-          </Link>
-          <Link PartID="4" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="1" PortName="InteractionKey" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableEvent-8D8E9EA712D2C45" MemberComponentId="Automator-8D8E9EA5441B4BC\EMPTY" />
-            <To PartID="2" PortName="Text" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8E9EA81DD2839" MemberComponentId="WindowsAdapter-8D8DFE68142AF1E\Label-8D8DFF8576B26AC" />
-            <LinkPoints>
-              <Point value="212, 153" />
-              <Point value="222, 153" />
-              <Point value="228, 153" />
-              <Point value="228, 119" />
-              <Point value="315, 119" />
-              <Point value="325, 119" />
-            </LinkPoints>
-          </Link>
           <Link PartID="8" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="5" PortName="Result" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" />
             <To PartID="6" PortName="Input" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableBoolDecision-8D8E9EAB6A0A33D" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableBoolDecision-8D8E9EAB6A0A33D" />
             <LinkPoints>
-              <Point value="542, 222" />
-              <Point value="542, 232" />
-              <Point value="542, 236" />
-              <Point value="542, 236" />
-              <Point value="542, 270" />
+              <Point value="549, 222" />
+              <Point value="549, 232" />
+              <Point value="549, 236" />
+              <Point value="549, 236" />
+              <Point value="549, 270" />
               <Point value="553, 270" />
               <Point value="563, 270" />
             </LinkPoints>
@@ -220,53 +202,13 @@
             <From PartID="5" PortName="Complete" PortType="Event" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" />
             <To PartID="6" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableBoolDecision-8D8E9EAB6A0A33D" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableBoolDecision-8D8E9EAB6A0A33D" />
             <LinkPoints>
-              <Point value="570, 203" />
-              <Point value="580, 203" />
-              <Point value="580, 203" />
-              <Point value="580, 203" />
+              <Point value="577, 203" />
+              <Point value="587, 203" />
+              <Point value="588, 203" />
+              <Point value="588, 203" />
               <Point value="610, 203" />
               <Point value="610, 213" />
               <Point value="610, 223" />
-            </LinkPoints>
-          </Link>
-          <Link PartID="13" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="1" PortName="InteractionKey" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableEvent-8D8E9EA712D2C45" MemberComponentId="Automator-8D8E9EA5441B4BC\EMPTY" />
-            <To PartID="5" PortName="a" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" />
-            <LinkPoints>
-              <Point value="212, 153" />
-              <Point value="222, 153" />
-              <Point value="228, 153" />
-              <Point value="228, 153" />
-              <Point value="479, 153" />
-              <Point value="479, 173" />
-              <Point value="479, 183" />
-            </LinkPoints>
-          </Link>
-          <Link PartID="14" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="2" PortName="Text" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8E9EA81DD2839" MemberComponentId="WindowsAdapter-8D8DFE68142AF1E\Label-8D8DFF8576B26AC" />
-            <To PartID="5" PortName="b" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" />
-            <LinkPoints>
-              <Point value="469, 119" />
-              <Point value="479, 119" />
-              <Point value="484, 119" />
-              <Point value="484, 119" />
-              <Point value="505, 119" />
-              <Point value="505, 173" />
-              <Point value="505, 183" />
-            </LinkPoints>
-          </Link>
-          <Link PartID="15" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="2" PortName="Complete" PortType="Event" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8E9EA81DD2839" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8E9EA81DD2839" />
-            <To PartID="5" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" />
-            <LinkPoints>
-              <Point value="469, 85" />
-              <Point value="479, 85" />
-              <Point value="484, 85" />
-              <Point value="484, 132" />
-              <Point value="452, 132" />
-              <Point value="452, 203" />
-              <Point value="453, 203" />
-              <Point value="463, 203" />
             </LinkPoints>
           </Link>
           <Link PartID="23" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -311,8 +253,10 @@
             <LinkPoints>
               <Point value="829, 142" />
               <Point value="839, 142" />
-              <Point value="877, 142" />
-              <Point value="877, 119" />
+              <Point value="836, 142" />
+              <Point value="836, 142" />
+              <Point value="844, 142" />
+              <Point value="844, 119" />
               <Point value="915, 119" />
               <Point value="925, 119" />
             </LinkPoints>
@@ -398,60 +342,82 @@
               <Point value="365, 405" />
             </LinkPoints>
           </Link>
+          <Link PartID="41" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="38" PortName="InteractionKey" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableEvent-8D8EA15F5BA6A1A" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableEvent-8D8EA15F5BA6A1A" />
+            <To PartID="5" PortName="a" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" />
+            <LinkPoints>
+              <Point value="232, 133" />
+              <Point value="242, 133" />
+              <Point value="244, 133" />
+              <Point value="244, 133" />
+              <Point value="479, 133" />
+              <Point value="479, 173" />
+              <Point value="479, 183" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="47" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="38" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableEvent-8D8EA15F5BA6A1A" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableEvent-8D8EA15F5BA6A1A" />
+            <To PartID="46" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8EA1A41ED5D24" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8EA1A41ED5D24" />
+            <LinkPoints>
+              <Point value="232, 65" />
+              <Point value="242, 65" />
+              <Point value="242, 65" />
+              <Point value="242, 65" />
+              <Point value="315, 65" />
+              <Point value="325, 65" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="48" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="38" PortName="InteractionKey" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableEvent-8D8EA15F5BA6A1A" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableEvent-8D8EA15F5BA6A1A" />
+            <To PartID="46" PortName="_SmartKey%WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1%Key%Value" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8EA1A41ED5D24" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8EA1A41ED5D24" />
+            <LinkPoints>
+              <Point value="232, 133" />
+              <Point value="242, 133" />
+              <Point value="244, 133" />
+              <Point value="244, 99" />
+              <Point value="315, 99" />
+              <Point value="325, 99" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="49" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="46" PortName="Complete" PortType="Event" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8EA1A41ED5D24" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8EA1A41ED5D24" />
+            <To PartID="5" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" />
+            <LinkPoints>
+              <Point value="469, 65" />
+              <Point value="479, 65" />
+              <Point value="484, 65" />
+              <Point value="484, 132" />
+              <Point value="452, 132" />
+              <Point value="452, 203" />
+              <Point value="453, 203" />
+              <Point value="463, 203" />
+            </LinkPoints>
+          </Link>
+          <Link PartID="50" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="46" PortName="Text" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableProperties-8D8EA1A41ED5D24" MemberComponentId="WindowsAdapter-8D8DFE68142AF1E\Label-8D8DFF8576B26AC" />
+            <To PartID="5" PortName="b" PortType="Property" ConnectableId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" MemberComponentId="Automator-8D8E9EA5441B4BC\ConnectableMethod-8D8E9EA951053C8" />
+            <LinkPoints>
+              <Point value="469, 116" />
+              <Point value="479, 116" />
+              <Point value="484, 116" />
+              <Point value="484, 116" />
+              <Point value="512, 116" />
+              <Point value="512, 173" />
+              <Point value="512, 183" />
+            </LinkPoints>
+          </Link>
         </Links>
-        <Comments />
+        <Comments>
+          <Comment Text="to store data to the framework" PartID="35" Position="85, 274" UnanchoredOffset="-30, -30" BaseWidth="30" />
+          <Comment Text="to validate the interaction and the account number match" PartID="36" Position="76, 198" UnanchoredOffset="-30, -30" BaseWidth="30" />
+        </Comments>
         <SubGraphs />
       </AutomationDocument>
-      <DocumentScale Value="0.7350919" />
+      <DocumentScale Value="0.7295925" />
       <ShowDesignCompNames Value="True" />
     </OpenSpan.Automation.Automator>
-    <OpenSpan.Automation.ConnectableEvent Name="connectableEvent1" Id="ConnectableEvent-8D8E9EA712D2C45">
-      <ComponentName Value="CRMactGetCustInfo" />
-      <DisplayName Value="Activity.ActivityStarted" />
-      <ExceptionsHandled Value="False" />
-      <InstanceTypeName Value="OpenSpan.Interactions.Controls.Activity" />
-      <InstanceUniqueId Value="GlobalContainer-8D8E7CA979738F7\Activity-8D8E89AB0E0A47E" />
-      <MemberDetails Value=".ActivityStarted Event" />
-      <Content Name="MemberPrototypes">
-        <Items>
-          <OpenSpan.Automation.MemberPrototype>
-            <MemberName Value="ActivityStarted" />
-            <MemberType Value="Event" />
-            <TypeName Value="System.EventHandler`1[[OpenSpan.Interactions.ActivityEventArgs, OpenSpan.Interactions, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e]]" />
-          </OpenSpan.Automation.MemberPrototype>
-        </Items>
-      </Content>
-    </OpenSpan.Automation.ConnectableEvent>
-    <OpenSpan.Automation.ConnectableProperties Name="connectableProperties1" Id="ConnectableProperties-8D8E9EA81DD2839">
-      <ComponentName Value="CRMlblAcctNum" />
-      <DefaultValues Value="" />
-      <DisplayName Value="Properties" />
-      <ExceptionsHandled Value="False" />
-      <InstanceTypeName Value="OpenSpan.Adapters.Controls.Label" />
-      <InstanceUniqueId Value="WindowsAdapter-8D8DFE68142AF1E\Label-8D8DFF8576B26AC" />
-      <MemberDetails Value=".Text Property" />
-      <Content Name="KeyInfos">
-        <Items>
-          <OpenSpan.Automation.KeyInfo>
-            <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
-            <KeyName Value="Active" />
-            <KeyType Value="Normal" />
-            <SetUpstream Value="False" />
-          </OpenSpan.Automation.KeyInfo>
-        </Items>
-      </Content>
-      <Content Name="MemberPrototypes">
-        <Items>
-          <OpenSpan.Automation.MemberPrototype>
-            <MemberName Value="Text" />
-            <MemberType Value="Property" />
-            <TypeName Value="System.String" />
-          </OpenSpan.Automation.MemberPrototype>
-        </Items>
-      </Content>
-    </OpenSpan.Automation.ConnectableProperties>
     <OpenSpan.Script.Expression.BooleanExpression Name="booleanExpression1" Id="BooleanExpression-8D8E9EA9507891D">
-      <Expression Value="a==b" />
+      <Expression Value="a == b" />
       <Scope Value="Local" Extended="True" />
       <Valid Value="True" />
       <Content Name="DynamicMembers">
@@ -604,6 +570,13 @@
       <Content Name="KeyInfos">
         <Items>
           <OpenSpan.Automation.KeyInfo>
+            <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
+            <KeyName Value="Active" />
+            <KeyObjectTypeName Value="" />
+            <KeyType Value="Normal" />
+            <SetUpstream Value="True" />
+          </OpenSpan.Automation.KeyInfo>
+          <OpenSpan.Automation.KeyInfo>
             <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             <KeyName Value="Active" />
             <KeyType Value="Normal" />
@@ -631,6 +604,13 @@
       <MemberDetails Value=".Text Property" />
       <Content Name="KeyInfos">
         <Items>
+          <OpenSpan.Automation.KeyInfo>
+            <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
+            <KeyName Value="Active" />
+            <KeyObjectTypeName Value="" />
+            <KeyType Value="Normal" />
+            <SetUpstream Value="True" />
+          </OpenSpan.Automation.KeyInfo>
           <OpenSpan.Automation.KeyInfo>
             <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             <KeyName Value="Active" />
@@ -660,6 +640,13 @@
       <Content Name="KeyInfos">
         <Items>
           <OpenSpan.Automation.KeyInfo>
+            <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
+            <KeyName Value="Active" />
+            <KeyObjectTypeName Value="" />
+            <KeyType Value="Normal" />
+            <SetUpstream Value="True" />
+          </OpenSpan.Automation.KeyInfo>
+          <OpenSpan.Automation.KeyInfo>
             <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             <KeyName Value="Active" />
             <KeyType Value="Normal" />
@@ -687,6 +674,13 @@
       <MemberDetails Value=".Text Property" />
       <Content Name="KeyInfos">
         <Items>
+          <OpenSpan.Automation.KeyInfo>
+            <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
+            <KeyName Value="Active" />
+            <KeyObjectTypeName Value="" />
+            <KeyType Value="Normal" />
+            <SetUpstream Value="True" />
+          </OpenSpan.Automation.KeyInfo>
           <OpenSpan.Automation.KeyInfo>
             <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             <KeyName Value="Active" />
@@ -716,6 +710,13 @@
       <Content Name="KeyInfos">
         <Items>
           <OpenSpan.Automation.KeyInfo>
+            <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
+            <KeyName Value="Active" />
+            <KeyObjectTypeName Value="" />
+            <KeyType Value="Normal" />
+            <SetUpstream Value="True" />
+          </OpenSpan.Automation.KeyInfo>
+          <OpenSpan.Automation.KeyInfo>
             <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             <KeyName Value="Active" />
             <KeyType Value="Normal" />
@@ -743,6 +744,13 @@
       <MemberDetails Value=".Text Property" />
       <Content Name="KeyInfos">
         <Items>
+          <OpenSpan.Automation.KeyInfo>
+            <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
+            <KeyName Value="Active" />
+            <KeyObjectTypeName Value="" />
+            <KeyType Value="Normal" />
+            <SetUpstream Value="True" />
+          </OpenSpan.Automation.KeyInfo>
           <OpenSpan.Automation.KeyInfo>
             <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             <KeyName Value="Active" />
@@ -814,6 +822,63 @@
           </OpenSpan.Automation.MemberPrototype>
           <OpenSpan.Automation.MemberPrototype>
             <MemberName Value="ZipCode" />
+            <MemberType Value="Property" />
+            <TypeName Value="System.String" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableProperties>
+    <OpenSpan.Automation.ConnectableEvent Name="connectableEvent2" Id="ConnectableEvent-8D8EA15F5BA6A1A">
+      <ComponentName Value="CRMactGetCustInfo" />
+      <DisplayName Value="Activity.ActivityStarted" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Interactions.Controls.Activity" />
+      <InstanceUniqueId Value="GlobalContainer-8D8E7CA979738F7\Activity-8D8E89AB0E0A47E" />
+      <MemberDetails Value=".ActivityStarted Event" />
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="ActivityStarted" />
+            <MemberType Value="Event" />
+            <TypeName Value="System.EventHandler`1[[OpenSpan.Interactions.ActivityEventArgs, OpenSpan.Interactions, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e]]" />
+          </OpenSpan.Automation.MemberPrototype>
+        </Items>
+      </Content>
+    </OpenSpan.Automation.ConnectableEvent>
+    <OpenSpan.Automation.ConnectableProperties Name="connectableProperties9" Id="ConnectableProperties-8D8EA1A41ED5D24">
+      <ComponentName Value="CRMlblAcctNum" />
+      <DefaultValues Value="" />
+      <DisplayName Value="Properties" />
+      <ExceptionsHandled Value="False" />
+      <InstanceTypeName Value="OpenSpan.Adapters.Controls.Label" />
+      <InstanceUniqueId Value="WindowsAdapter-8D8DFE68142AF1E\Label-8D8DFF8576B26AC" />
+      <MemberDetails Value=".Text Property" />
+      <Content Name="DynamicMembers">
+        <Items>
+          <OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicType="Property" name="_SmartKey%WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1%Key%Value" canRead="False" canWrite="True" type="System.String" aliasName="_SmartKey%WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1%Key%Value" shouldSerialize="False" visibility="DefaultOn" source="" blockTypeName="" />
+        </Items>
+      </Content>
+      <Content Name="KeyInfos">
+        <Items>
+          <OpenSpan.Automation.KeyInfo>
+            <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
+            <KeyName Value="Key" />
+            <KeyObjectTypeName Value="OpenSpan.Adapters.SimpleKey" />
+            <KeyType Value="Smart" />
+            <SetUpstream Value="False" />
+          </OpenSpan.Automation.KeyInfo>
+          <OpenSpan.Automation.KeyInfo>
+            <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
+            <KeyName Value="Active" />
+            <KeyType Value="Normal" />
+            <SetUpstream Value="False" />
+          </OpenSpan.Automation.KeyInfo>
+        </Items>
+      </Content>
+      <Content Name="MemberPrototypes">
+        <Items>
+          <OpenSpan.Automation.MemberPrototype>
+            <MemberName Value="Text" />
             <MemberType Value="Property" />
             <TypeName Value="System.String" />
           </OpenSpan.Automation.MemberPrototype>

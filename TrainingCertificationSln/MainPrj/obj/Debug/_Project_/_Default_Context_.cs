@@ -21,6 +21,7 @@ namespace MainPrj.Project
 			mName = "Default";
 			mIsDefault = true;
 			mContextType = OpenSpan.Solution.ContextType.Local;
+			base.DesignComponentTypes.Add("MainPrj.Main_E_cmbGetAcct_SelectedIndexChanged");
 			base.DesignComponentTypes.Add("MainPrj.Main_E_IntMgr_InteractionActivated");
 			base.DesignComponentTypes.Add("MainPrj.Main_E_IntMgr_InteractionClosed");
 			base.DesignComponentTypes.Add("MainPrj.Main_E_IntMgr_InteractionStarted");

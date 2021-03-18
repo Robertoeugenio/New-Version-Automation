@@ -645,6 +645,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		this.CRMchild.Name = "CRMchild";
 		this.CRMchild.PegaId = 0;
 		this.CRMchild.TargetTypeString = _resources_.GetString("_CRM_8_");
+		this.CRMchild.UseKeys = true;
 		this.CRMchild.XrayGuid = "";
 		this.MdiClient.Controls.Add(this.CRMchild);
 		this.MdiClient.Extender = null;
@@ -1555,6 +1556,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMchild.Name = "CRMchild";
 		CRMchild.PegaId = 0;
 		CRMchild.TargetTypeString = _resources_.GetString("_CRM_8_");
+		CRMchild.UseKeys = true;
 		CRMchild.XrayGuid = "";
 		MdiClient.Controls.Add(CRMchild);
 		MdiClient.Extender = null;
@@ -2260,6 +2262,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMchild.Name = "CRMchild";
 		CRMchild.PegaId = 0;
 		CRMchild.TargetTypeString = _resources_.GetString("_CRM_8_");
+		CRMchild.UseKeys = true;
 		CRMchild.XrayGuid = "";
 		MdiClient.Controls.Add(CRMchild);
 		MdiClient.Extender = null;
@@ -2508,6 +2511,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		CRMchild.Name = "CRMchild";
 		CRMchild.PegaId = 0;
 		CRMchild.TargetTypeString = _resources_.GetString("_CRM_8_");
+		CRMchild.UseKeys = true;
 		CRMchild.XrayGuid = "";
 		// 
 		// Set designComp Ids

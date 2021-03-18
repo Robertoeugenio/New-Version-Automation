@@ -25,7 +25,15 @@
 			-->
 
 	<Context>
-		<Value Name="ClientFullName" Type="String" Default=""/>
+		<Value Name="AcctNum" Type="String" Default="10000"/>
+		<Value Name="Name" Type="String" Default="[No Active Call]"/>
+		<Value Name="Adress" Type="String" Default="xxxxx"/>
+		<Value Name="City" Type="String" Default="xxxxx"/>
+		<Value Name="State" Type="String" Default="xxxxx"/>
+		<Value Name="ZipCode" Type="String" Default="xxxxx"/>
+		<Value Name="NearestStore" Type="String" Default="xxxxx"/>
+	
+		
 
 	</Context>
 
@@ -87,11 +95,57 @@
 			When defining an activity, make sure that all the data required to perform the
 			activity is available through context values or the activity’s properties.
 			-->
-
+ 
 	<Activities>
-		<Activity Name="GetCustomerInformation"></Activity>
-		<Activity Name="UpdateDisplay"></Activity>
-					
+
+
+	    <Activity Name="GetCustomerInformation">
+			<Value Name="GetCustomerInformation" Type="String"/>
+		</Activity> 
+	    <Activity Name="Update Display">
+			<Value Name="Update Display" Type="String"/>
+		</Activity>
+		<Activity Name="ValidateCaller">
+			<Value Name="CallerValid" Type="Boolean"/>
+		</Activity>
+		<Activity Name="ValidateCaller">
+			<Value Name="CallerValid" Type="Boolean"/>
+		</Activity>
+
+		<Activity Name="UnvalidateCaller">
+			<Value Name="CallerValid" Type="Boolean"/>
+		</Activity>
+		<Activity Name="AddPlan">
+			<Value Name="PlanType" Type="String"/>
+			<Value Name="EffectiveDate" Type="String"/>
+		</Activity>
+		<Activity Name="CloseAccount">
+			<Value Name="EffectiveDate" Type="String"/>
+		</Activity>
+		<Activity Name="ProcessClaim">
+			<Value Name="ClaimNum" Type="String"/>
+			<Value Name="ClaimDate" Type="String"/>
+		</Activity>
+		<Activity Name="ProcessClaim">
+		</Activity>
+
+
+		<Activity Name="ActivateMDIWindow">
+			<Value Name="AcctNumber" Type="String"/>
+		</Activity>
+
+		<Activity Name="GetNearestStore">
+			<Value Name="strResult" Type="String"/>
+			<Value Name="isSucess" Type="Boolean"/>
+		</Activity>
+		
+		<Activity Name=" ActivateMDIWin">
+			<Value Name="AcctNumber" Type="String"/>
+		</Activity>
+		
+
+
+
 	</Activities>
 
 	<!--  Plug-ins are HTML user interface sections in the toolbar. Agile Desktop includes these plug-ins:

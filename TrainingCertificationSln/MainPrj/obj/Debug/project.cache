@@ -1,11 +1,13 @@
 <Cache>
   <Project configuration="" />
   <DesignComponents>
+    <DesignComponent id="Automator-8D8E9EF00EDBAD0" className="Main_E_cmbGetAcct_SelectedIndexChanged" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E93EC0618B26" className="Main_E_IntMgr_InteractionActivated" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E886C9690BDF" className="Main_E_IntMgr_InteractionClosed" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E7D49282165B" className="Main_E_IntMgr_InteractionStarted" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E92220880C0B" className="Main_E_UpdateDisplay_ActivityStarted" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="DesignForm-8D8E7C0F2493EDE" className="frmCustInfo" type="WinForm" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E8980668067B" className="Main_P_LoadCustInfoValues" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="GlobalContainer-8D8E7CAB540ACF2" className="_GC_Main" type="GlobalContainer" isPublic="True" screenShots="" />
   </DesignComponents>
 </Cache>

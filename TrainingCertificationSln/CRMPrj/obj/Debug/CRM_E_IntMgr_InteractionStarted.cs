@@ -5,8 +5,8 @@ namespace CRMPrj
 /// <summary>
 /// OpenSpan design component.
 /// </summary>
-// Automator-8D8E89D29ADB8C1
-[OpenSpan.Design.ComponentIdentityAttribute("Automator-8D8E89D29ADB8C1")]
+// Automator-8D8E9FF30BC29B6
+[OpenSpan.Design.ComponentIdentityAttribute("Automator-8D8E9FF30BC29B6")]
 [System.ComponentModel.ToolboxItemAttribute(false)]
 public sealed class CRM_E_IntMgr_InteractionStarted : OpenSpan.Automation.Automator
 {
@@ -16,10 +16,6 @@ public sealed class CRM_E_IntMgr_InteractionStarted : OpenSpan.Automation.Automa
 	private OpenSpan.Automation.ConnectableMethod connectableMethod1;
 	
 	private OpenSpan.Automation.ConnectableMethod connectableMethod2;
-	
-	private OpenSpan.Automation.ConnectableEvent connectableEvent2;
-	
-	private OpenSpan.Automation.ConnectableProperties connectableProperties1;
 	
 	public CRM_E_IntMgr_InteractionStarted()
 	{
@@ -43,14 +39,9 @@ public sealed class CRM_E_IntMgr_InteractionStarted : OpenSpan.Automation.Automa
 		OpenSpan.Automation.ParameterPrototype parameterprototype4 = new OpenSpan.Automation.ParameterPrototype();
 		OpenSpan.Automation.ParameterPrototype parameterprototype5 = new OpenSpan.Automation.ParameterPrototype();
 		OpenSpan.Automation.ParameterPrototype parameterprototype6 = new OpenSpan.Automation.ParameterPrototype();
-		OpenSpan.Automation.MemberPrototype memberprototype4 = new OpenSpan.Automation.MemberPrototype();
-		OpenSpan.Automation.KeyInfo keyinfo2 = new OpenSpan.Automation.KeyInfo();
-		OpenSpan.Automation.MemberPrototype memberprototype5 = new OpenSpan.Automation.MemberPrototype();
 		this.connectableEvent1 = new OpenSpan.Automation.ConnectableEvent();
 		this.connectableMethod1 = new OpenSpan.Automation.ConnectableMethod();
 		this.connectableMethod2 = new OpenSpan.Automation.ConnectableMethod();
-		this.connectableEvent2 = new OpenSpan.Automation.ConnectableEvent();
-		this.connectableProperties1 = new OpenSpan.Automation.ConnectableProperties();
 		// 
 		// Initialize design component
 		// 
@@ -58,19 +49,18 @@ public sealed class CRM_E_IntMgr_InteractionStarted : OpenSpan.Automation.Automa
 		// 
 		// Set design component Id
 		// 
-		this.Id = new OpenSpan.Design.ComponentIdentity("Automator-8D8E89D29ADB8C1");
+		this.Id = new OpenSpan.Design.ComponentIdentity("Automator-8D8E9FF30BC29B6");
 		// 
 		// Set component Ids
 		// 
-		this.SetId(this.connectableEvent1, new OpenSpan.Design.ComponentIdentity("ConnectableEvent-8D8E89D4630587F"));
-		this.SetId(this.connectableMethod1, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E89D5EECDDE7"));
-		this.SetId(this.connectableMethod2, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E89D7AF55AE1"));
-		this.SetId(this.connectableEvent2, new OpenSpan.Design.ComponentIdentity("ConnectableEvent-8D8E89DD8037B29"));
-		this.SetId(this.connectableProperties1, new OpenSpan.Design.ComponentIdentity("ConnectableProperties-8D8E89DF00A8818"));
+		this.SetId(this.connectableEvent1, new OpenSpan.Design.ComponentIdentity("ConnectableEvent-8D8E9FF5E568344"));
+		this.SetId(this.connectableMethod1, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E9FF71800BF6"));
+		this.SetId(this.connectableMethod2, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E9FF7D34D8F2"));
 		// 
 		// CRM_E_IntMgr_InteractionStarted
 		// 
 		ComponentInfo.CodeDomData = _resources_.GetString("_CRM_E_IntMgr_InteractionStarted_1_");
+		this.DocumentScale = 0.9025F;
 		this.IsStartStoppable = false;
 		this.LogData = true;
 		this.LogEvents = true;
@@ -173,7 +163,7 @@ public sealed class CRM_E_IntMgr_InteractionStarted : OpenSpan.Automation.Automa
 		parameterprototype5.CanWrite = true;
 		parameterprototype5.DefaultSet = false;
 		parameterprototype5.DefaultValue = null;
-		parameterprototype5.ParamName = "Update Display";
+		parameterprototype5.ParamName = "UpdateDisplay";
 		parameterprototype5.Position = 1;
 		parameterprototype5.TypeName = "System.String";
 		parameterprototype6.CanRead = false;
@@ -192,43 +182,9 @@ public sealed class CRM_E_IntMgr_InteractionStarted : OpenSpan.Automation.Automa
 		this.connectableMethod2.ParamsLength = 0;
 		this.connectableMethod2.SerializedParamsDefaultValues = "";
 		// 
-		// connectableEvent2
-		// 
-		this.connectableEvent2.DisplayName = "null";
-		this.connectableEvent2.ExceptionsHandled = false;
-		this.connectableEvent2.InstanceTypeName = "OpenSpan.Interactions.Controls.Activity";
-		this.connectableEvent2.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("GlobalContainer-8D8E7CA979738F7\\Activity-8D8E89AB0E0A47E");
-		memberprototype4.DefaultValue = null;
-		memberprototype4.MemberName = "ActivityStarted";
-		memberprototype4.MemberType = System.Reflection.MemberTypes.Event;
-		memberprototype4.Signature.ReturnType = null;
-		memberprototype4.TypeName = _resources_.GetString("_CRM_E_IntMgr_InteractionStarted_4_");
-		this.connectableEvent2.MemberPrototypes.Add(memberprototype4);
-		// 
-		// connectableProperties1
-		// 
-		this.connectableProperties1.DefaultValues = "";
-		this.connectableProperties1.DisplayName = "Properties";
-		this.connectableProperties1.ExceptionsHandled = false;
-		this.connectableProperties1.InstanceTypeName = "OpenSpan.Adapters.Controls.Label";
-		this.connectableProperties1.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("WindowsAdapter-8D8DFE68142AF1E\\Label-8D8DFF8576B26AC");
-		keyinfo2.CloneContextId = new OpenSpan.Design.ComponentIdentity("WindowsAdapter-8D8DFE68142AF1E\\Form-8D8DFF364BBCE88");
-		keyinfo2.KeyName = "Active";
-		keyinfo2.KeyObjectTypeName = null;
-		keyinfo2.KeyType = OpenSpan.Automation.CloneKeyType.Normal;
-		keyinfo2.SetUpstream = false;
-		keyinfo2.TokenizedText = null;
-		this.connectableProperties1.KeyInfos.Add(keyinfo2);
-		memberprototype5.DefaultValue = null;
-		memberprototype5.MemberName = "Text";
-		memberprototype5.MemberType = System.Reflection.MemberTypes.Property;
-		memberprototype5.Signature.ReturnType = null;
-		memberprototype5.TypeName = "System.String";
-		this.connectableProperties1.MemberPrototypes.Add(memberprototype5);
-		// 
 		// Initialize CodeDom data
 		// 
-		this.CodeDomData = _resources_.GetString("_CRM_E_IntMgr_InteractionStarted_5_");
+		this.CodeDomData = _resources_.GetString("_CRM_E_IntMgr_InteractionStarted_4_");
 		// 
 		// Add components
 		// 
@@ -236,8 +192,6 @@ public sealed class CRM_E_IntMgr_InteractionStarted : OpenSpan.Automation.Automa
 		this.Components.Add(this.connectableEvent1);
 		this.Components.Add(this.connectableMethod1);
 		this.Components.Add(this.connectableMethod2);
-		this.Components.Add(this.connectableEvent2);
-		this.Components.Add(this.connectableProperties1);
 	}
 	
 	private System.Collections.Generic.List<System.ComponentModel.IComponent> mComponents;
@@ -271,7 +225,7 @@ public sealed class CRM_E_IntMgr_InteractionStarted : OpenSpan.Automation.Automa
 		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(CRM_E_IntMgr_InteractionStarted));
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		OpenSpan.Automation.ConnectableEvent connectableEvent1 = new OpenSpan.Automation.ConnectableEvent();
-		this.SetId(connectableEvent1, new OpenSpan.Design.ComponentIdentity("ConnectableEvent-8D8E89D4630587F"));
+		this.SetId(connectableEvent1, new OpenSpan.Design.ComponentIdentity("ConnectableEvent-8D8E9FF5E568344"));
 		connectableEvent1.DisplayName = "null";
 		connectableEvent1.ExceptionsHandled = false;
 		connectableEvent1.InstanceTypeName = "OpenSpan.Interactions.Controls.InteractionManager";
@@ -302,7 +256,7 @@ public sealed class CRM_E_IntMgr_InteractionStarted : OpenSpan.Automation.Automa
 		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(CRM_E_IntMgr_InteractionStarted));
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		OpenSpan.Automation.ConnectableMethod connectableMethod1 = new OpenSpan.Automation.ConnectableMethod();
-		this.SetId(connectableMethod1, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E89D5EECDDE7"));
+		this.SetId(connectableMethod1, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E9FF71800BF6"));
 		connectableMethod1.DisplayName = "<Start>";
 		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo1 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
 		dynamicpropertyinfo1.IsSerializable = true;
@@ -362,7 +316,7 @@ public sealed class CRM_E_IntMgr_InteractionStarted : OpenSpan.Automation.Automa
 		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(CRM_E_IntMgr_InteractionStarted));
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		OpenSpan.Automation.ConnectableMethod connectableMethod2 = new OpenSpan.Automation.ConnectableMethod();
-		this.SetId(connectableMethod2, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E89D7AF55AE1"));
+		this.SetId(connectableMethod2, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E9FF7D34D8F2"));
 		connectableMethod2.DisplayName = "<Start>";
 		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo1 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
 		dynamicpropertyinfo1.IsSerializable = true;
@@ -392,7 +346,7 @@ public sealed class CRM_E_IntMgr_InteractionStarted : OpenSpan.Automation.Automa
 		parameterprototype2.CanWrite = true;
 		parameterprototype2.DefaultSet = false;
 		parameterprototype2.DefaultValue = null;
-		parameterprototype2.ParamName = "Update Display";
+		parameterprototype2.ParamName = "UpdateDisplay";
 		parameterprototype2.Position = 1;
 		parameterprototype2.TypeName = "System.String";
 		OpenSpan.Automation.ParameterPrototype parameterprototype3 = new OpenSpan.Automation.ParameterPrototype();
@@ -415,60 +369,6 @@ public sealed class CRM_E_IntMgr_InteractionStarted : OpenSpan.Automation.Automa
 		// Result
 		// 
 		return connectableMethod2;
-	}
-	
-	internal OpenSpan.Automation.ConnectableEvent Create_connectableEvent2(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
-	{
-		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(CRM_E_IntMgr_InteractionStarted));
-		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
-		OpenSpan.Automation.ConnectableEvent connectableEvent2 = new OpenSpan.Automation.ConnectableEvent();
-		this.SetId(connectableEvent2, new OpenSpan.Design.ComponentIdentity("ConnectableEvent-8D8E89DD8037B29"));
-		connectableEvent2.DisplayName = "null";
-		connectableEvent2.ExceptionsHandled = false;
-		connectableEvent2.InstanceTypeName = "OpenSpan.Interactions.Controls.Activity";
-		connectableEvent2.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("GlobalContainer-8D8E7CA979738F7\\Activity-8D8E89AB0E0A47E");
-		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
-		memberprototype1.DefaultValue = null;
-		memberprototype1.MemberName = "ActivityStarted";
-		memberprototype1.MemberType = System.Reflection.MemberTypes.Event;
-		memberprototype1.Signature.ReturnType = null;
-		memberprototype1.TypeName = _resources_.GetString("_CRM_E_IntMgr_InteractionStarted_4_");
-		connectableEvent2.MemberPrototypes.Add(memberprototype1);
-		// 
-		// Result
-		// 
-		return connectableEvent2;
-	}
-	
-	internal OpenSpan.Automation.ConnectableProperties Create_connectableProperties1(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
-	{
-		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
-		OpenSpan.Automation.ConnectableProperties connectableProperties1 = new OpenSpan.Automation.ConnectableProperties();
-		this.SetId(connectableProperties1, new OpenSpan.Design.ComponentIdentity("ConnectableProperties-8D8E89DF00A8818"));
-		connectableProperties1.DefaultValues = "";
-		connectableProperties1.DisplayName = "Properties";
-		connectableProperties1.ExceptionsHandled = false;
-		connectableProperties1.InstanceTypeName = "OpenSpan.Adapters.Controls.Label";
-		connectableProperties1.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("WindowsAdapter-8D8DFE68142AF1E\\Label-8D8DFF8576B26AC");
-		OpenSpan.Automation.KeyInfo keyinfo1 = new OpenSpan.Automation.KeyInfo();
-		keyinfo1.CloneContextId = new OpenSpan.Design.ComponentIdentity("WindowsAdapter-8D8DFE68142AF1E\\Form-8D8DFF364BBCE88");
-		keyinfo1.KeyName = "Active";
-		keyinfo1.KeyObjectTypeName = null;
-		keyinfo1.KeyType = OpenSpan.Automation.CloneKeyType.Normal;
-		keyinfo1.SetUpstream = false;
-		keyinfo1.TokenizedText = null;
-		connectableProperties1.KeyInfos.Add(keyinfo1);
-		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
-		memberprototype1.DefaultValue = null;
-		memberprototype1.MemberName = "Text";
-		memberprototype1.MemberType = System.Reflection.MemberTypes.Property;
-		memberprototype1.Signature.ReturnType = null;
-		memberprototype1.TypeName = "System.String";
-		connectableProperties1.MemberPrototypes.Add(memberprototype1);
-		// 
-		// Result
-		// 
-		return connectableProperties1;
 	}
 }
 

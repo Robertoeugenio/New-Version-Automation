@@ -4,11 +4,11 @@
     <Assembly Value="OpenSpan.Automation" />
     <AssemblyReferences>
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Automation, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Interactions.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
-      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences />
@@ -62,7 +62,7 @@
         </Objects>
         <Links>
           <Link PartID="10" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="1" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E885DE61584A\ConnectableEvent-8D8E885E92013C0" MemberComponentId="Automator-8D8E885DE61584A\EMPTY" />
+            <From PartID="1" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E885DE61584A\ConnectableEvent-8D8E885E92013C0" MemberComponentId="Automator-8D8E885DE61584A\ConnectableEvent-8D8E885E92013C0" />
             <To PartID="9" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E885DE61584A\ConnectableProperties-8D8E8868D93CA3A" MemberComponentId="Automator-8D8E885DE61584A\ConnectableProperties-8D8E8868D93CA3A" />
             <LinkPoints>
               <Point value="148, 265" />
@@ -112,6 +112,13 @@
       <MemberDetails Value=".Closing Event" />
       <Content Name="KeyInfos">
         <Items>
+          <OpenSpan.Automation.KeyInfo>
+            <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
+            <KeyName Value="Active" />
+            <KeyObjectTypeName Value="" />
+            <KeyType Value="Normal" />
+            <SetUpstream Value="False" />
+          </OpenSpan.Automation.KeyInfo>
           <OpenSpan.Automation.KeyInfo>
             <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             <KeyName Value="Active" />

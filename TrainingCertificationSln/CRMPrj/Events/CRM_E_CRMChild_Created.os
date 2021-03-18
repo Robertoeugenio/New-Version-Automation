@@ -3,14 +3,14 @@
     <Type Value="OpenSpan.Automation.Automator" />
     <Assembly Value="OpenSpan.Automation" />
     <AssemblyReferences>
-      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Adapters, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Automation, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Interactions.Controls, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
-      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences />
@@ -45,9 +45,6 @@
             <Fittings>
               <Result Collapsed="False" ActualText="Result" />
             </Fittings>
-            <UpstreamKeyedIds>
-              <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
-            </UpstreamKeyedIds>
             <OverriddenIds />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -73,9 +70,6 @@
             <Collapsed Value="False" />
             <WillExecute Value="True" />
             <InstanceName Value="CRMchild" />
-            <UpstreamKeyedIds>
-              <UpstreamKeyId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
-            </UpstreamKeyedIds>
             <OverriddenIds />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -105,18 +99,6 @@
           </ConnectionBlock>
         </Objects>
         <Links>
-          <Link PartID="6" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
-            <From PartID="1" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E884D37F8321\ConnectableEvent-8D8E884EFF1CCC2" MemberComponentId="Automator-8D8E884D37F8321\EMPTY" />
-            <To PartID="2" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E884D37F8321\ConnectableMethod-8D8E884FFEB9311" MemberComponentId="Automator-8D8E884D37F8321\ConnectableMethod-8D8E884FFEB9311" />
-            <LinkPoints>
-              <Point value="128, 185" />
-              <Point value="138, 185" />
-              <Point value="140, 185" />
-              <Point value="140, 165" />
-              <Point value="155, 165" />
-              <Point value="165, 165" />
-            </LinkPoints>
-          </Link>
           <DecisionEventLink PartID="7" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="2" ParentMemberName="Result" DecisionValue="True" ConnectableId="Automator-8D8E884D37F8321\ConnectableMethod-8D8E884FFEB9311" />
             <To PartID="3" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E884D37F8321\ConnectableProperties-8D8E885074F0A85" MemberComponentId="Automator-8D8E884D37F8321\ConnectableProperties-8D8E885074F0A85" />
@@ -147,10 +129,10 @@
             <LinkPoints>
               <Point value="489, 202" />
               <Point value="499, 202" />
-              <Point value="499, 202" />
-              <Point value="499, 202" />
-              <Point value="515, 202" />
-              <Point value="525, 202" />
+              <Point value="500, 202" />
+              <Point value="500, 236" />
+              <Point value="515, 236" />
+              <Point value="525, 236" />
             </LinkPoints>
           </Link>
           <Link PartID="10" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -169,10 +151,10 @@
             <From PartID="4" PortName="Key" PortType="Property" ConnectableId="Automator-8D8E884D37F8321\ConnectableProperties-8D8E8851078ADF3" MemberComponentId="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
             <To PartID="5" PortName="interactionKey" PortType="Property" ConnectableId="Automator-8D8E884D37F8321\ConnectableMethod-8D8E8852A29D32C" MemberComponentId="Automator-8D8E884D37F8321\ConnectableMethod-8D8E8852A29D32C" />
             <LinkPoints>
-              <Point value="629, 202" />
-              <Point value="639, 202" />
-              <Point value="647, 202" />
-              <Point value="647, 202" />
+              <Point value="629, 236" />
+              <Point value="639, 236" />
+              <Point value="644, 236" />
+              <Point value="644, 202" />
               <Point value="655, 202" />
               <Point value="665, 202" />
             </LinkPoints>
@@ -183,12 +165,26 @@
             <LinkPoints>
               <Point value="309, 211" />
               <Point value="319, 211" />
-              <Point value="347, 211" />
-              <Point value="347, 285" />
+              <Point value="316, 211" />
+              <Point value="316, 211" />
+              <Point value="324, 211" />
+              <Point value="324, 285" />
               <Point value="375, 285" />
               <Point value="385, 285" />
             </LinkPoints>
           </DecisionEventLink>
+          <Link PartID="6" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
+            <From PartID="1" PortName="Raised" PortType="Event" ConnectableId="Automator-8D8E884D37F8321\ConnectableEvent-8D8E884EFF1CCC2" MemberComponentId="Automator-8D8E884D37F8321\ConnectableEvent-8D8E884EFF1CCC2" />
+            <To PartID="2" PortName="DoWork" PortType="Method" ConnectableId="Automator-8D8E884D37F8321\ConnectableMethod-8D8E884FFEB9311" MemberComponentId="Automator-8D8E884D37F8321\ConnectableMethod-8D8E884FFEB9311" />
+            <LinkPoints>
+              <Point value="128, 185" />
+              <Point value="138, 185" />
+              <Point value="140, 185" />
+              <Point value="140, 165" />
+              <Point value="155, 165" />
+              <Point value="165, 165" />
+            </LinkPoints>
+          </Link>
         </Links>
         <Comments />
         <SubGraphs />
@@ -205,6 +201,13 @@
       <MemberDetails Value=".Created Event" />
       <Content Name="KeyInfos">
         <Items>
+          <OpenSpan.Automation.KeyInfo>
+            <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
+            <KeyName Value="Active" />
+            <KeyObjectTypeName Value="" />
+            <KeyType Value="Normal" />
+            <SetUpstream Value="False" />
+          </OpenSpan.Automation.KeyInfo>
           <OpenSpan.Automation.KeyInfo>
             <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             <KeyName Value="Active" />
@@ -243,7 +246,7 @@
             <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             <KeyName Value="Active" />
             <KeyType Value="Normal" />
-            <SetUpstream Value="True" />
+            <SetUpstream Value="False" />
           </OpenSpan.Automation.KeyInfo>
         </Items>
       </Content>
@@ -301,10 +304,17 @@
       <Content Name="KeyInfos">
         <Items>
           <OpenSpan.Automation.KeyInfo>
+            <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\MdiChild-8D8DFF857CC9FA1" />
+            <KeyName Value="Active" />
+            <KeyObjectTypeName Value="" />
+            <KeyType Value="Normal" />
+            <SetUpstream Value="False" />
+          </OpenSpan.Automation.KeyInfo>
+          <OpenSpan.Automation.KeyInfo>
             <CloneContextId Value="WindowsAdapter-8D8DFE68142AF1E\Form-8D8DFF364BBCE88" />
             <KeyName Value="Active" />
             <KeyType Value="Normal" />
-            <SetUpstream Value="True" />
+            <SetUpstream Value="False" />
           </OpenSpan.Automation.KeyInfo>
         </Items>
       </Content>

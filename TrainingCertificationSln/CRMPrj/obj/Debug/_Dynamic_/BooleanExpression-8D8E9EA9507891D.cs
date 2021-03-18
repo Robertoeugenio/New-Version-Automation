@@ -51,7 +51,7 @@ namespace Dynamic.BooleanExpression_8D8E9EA9507891D {
         }
         
         public void Process() {
-            this.mResult = a==b;
+            this.mResult = a == b;
         }
     }
 }

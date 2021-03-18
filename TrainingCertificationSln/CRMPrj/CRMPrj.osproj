@@ -234,9 +234,9 @@
       <SubType>Component</SubType>
       <Id>WindowsAdapter-8D8DFE68142AF1E</Id>
     </Compile>
-    <Compile Include="CRM_E_IntMgr_InteractionStarted.os">
+    <Compile Include="Events\CRM_E_ActivateMDIWin_ActivityStarted.os">
       <SubType>Component</SubType>
-      <Id>Automator-8D8E89D29ADB8C1</Id>
+      <Id>Automator-8D8E9F13C79928C</Id>
     </Compile>
     <Compile Include="Events\CRM_E_CRMChild_Activated.os">
       <SubType>Component</SubType>
@@ -257,6 +257,10 @@
     <Compile Include="Events\CRM_E_GetCustInfo_ActivityStarted.os">
       <SubType>Component</SubType>
       <Id>Automator-8D8E9EA5441B4BC</Id>
+    </Compile>
+    <Compile Include="Events\CRM_E_IntMgr_InteractionStarted.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8E9FF30BC29B6</Id>
     </Compile>
     <Compile Include="Extensions\TextBox1.cs" />
     <Compile Include="_GC_CRM.os">
