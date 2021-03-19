@@ -47,6 +47,8 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 	
 	private OpenSpan.Automation.JumpHost jumpHost2;
 	
+	private OpenSpan.Automation.ConnectableProperties connectableProperties10;
+	
 	public Main_P_LoadCustInfoValues()
 	{
 		// 
@@ -85,6 +87,8 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		OpenSpan.Automation.MemberPrototype memberprototype15 = new OpenSpan.Automation.MemberPrototype();
 		OpenSpan.Automation.MemberPrototype memberprototype16 = new OpenSpan.Automation.MemberPrototype();
 		OpenSpan.Automation.MemberPrototype memberprototype17 = new OpenSpan.Automation.MemberPrototype();
+		OpenSpan.Automation.MemberPrototype memberprototype18 = new OpenSpan.Automation.MemberPrototype();
+		OpenSpan.Automation.MemberPrototype memberprototype19 = new OpenSpan.Automation.MemberPrototype();
 		this.entryPoint1 = new OpenSpan.Automation.EntryPoint();
 		this.hiddenTypeProxy1 = new OpenSpan.Automation.HiddenTypeProxy();
 		this.exitPoint1 = new OpenSpan.Automation.ExitPoint();
@@ -101,6 +105,7 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		this.connectableProperties8 = new OpenSpan.Automation.ConnectableProperties();
 		this.connectableProperties9 = new OpenSpan.Automation.ConnectableProperties();
 		this.jumpHost2 = new OpenSpan.Automation.JumpHost();
+		this.connectableProperties10 = new OpenSpan.Automation.ConnectableProperties();
 		// 
 		// Initialize design component
 		// 
@@ -128,11 +133,12 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		this.SetId(this.connectableProperties8, new OpenSpan.Design.ComponentIdentity("ConnectableProperties-8D8E898DF5D9AE7"));
 		this.SetId(this.connectableProperties9, new OpenSpan.Design.ComponentIdentity("ConnectableProperties-8D8E898EFF814BF"));
 		this.SetId(this.jumpHost2, new OpenSpan.Design.ComponentIdentity("JumpHost-8D8E898F5FCC6A0"));
+		this.SetId(this.connectableProperties10, new OpenSpan.Design.ComponentIdentity("ConnectableProperties-8D8EAB8A22B33AC"));
 		// 
 		// Main_P_LoadCustInfoValues
 		// 
 		ComponentInfo.CodeDomData = _resources_.GetString("_Main_P_LoadCustInfoValues_1_");
-		this.DocumentScale = 0.6983373F;
+		this.DocumentScale = 0.6070241F;
 		dynamicmethodinfo1.BlockTypeName = "OpenSpan.Automation.Design.ConnectionBlocks.EntryPointExecuteBlock";
 		dynamicmethodinfo1.Source = "";
 		dynamicmethodinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
@@ -318,12 +324,18 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		memberprototype8.MemberType = System.Reflection.MemberTypes.Property;
 		memberprototype8.Signature.ReturnType = null;
 		memberprototype8.TypeName = "System.String";
+		memberprototype9.DefaultValue = null;
+		memberprototype9.MemberName = "NearestStore";
+		memberprototype9.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype9.Signature.ReturnType = null;
+		memberprototype9.TypeName = "System.String";
 		this.connectableProperties1.MemberPrototypes.Add(memberprototype3);
 		this.connectableProperties1.MemberPrototypes.Add(memberprototype4);
 		this.connectableProperties1.MemberPrototypes.Add(memberprototype5);
 		this.connectableProperties1.MemberPrototypes.Add(memberprototype6);
 		this.connectableProperties1.MemberPrototypes.Add(memberprototype7);
 		this.connectableProperties1.MemberPrototypes.Add(memberprototype8);
+		this.connectableProperties1.MemberPrototypes.Add(memberprototype9);
 		// 
 		// connectableProperties2
 		// 
@@ -332,12 +344,12 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		this.connectableProperties2.ExceptionsHandled = false;
 		this.connectableProperties2.InstanceTypeName = "System.Windows.Forms.TextBox";
 		this.connectableProperties2.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("DesignForm-8D8E7C0F2493EDE\\TextBox-8D8E7C16D9B9731");
-		memberprototype9.DefaultValue = null;
-		memberprototype9.MemberName = "Text";
-		memberprototype9.MemberType = System.Reflection.MemberTypes.Property;
-		memberprototype9.Signature.ReturnType = null;
-		memberprototype9.TypeName = "System.String";
-		this.connectableProperties2.MemberPrototypes.Add(memberprototype9);
+		memberprototype10.DefaultValue = null;
+		memberprototype10.MemberName = "Text";
+		memberprototype10.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype10.Signature.ReturnType = null;
+		memberprototype10.TypeName = "System.String";
+		this.connectableProperties2.MemberPrototypes.Add(memberprototype10);
 		// 
 		// connectableProperties3
 		// 
@@ -346,12 +358,12 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		this.connectableProperties3.ExceptionsHandled = false;
 		this.connectableProperties3.InstanceTypeName = "System.Windows.Forms.TextBox";
 		this.connectableProperties3.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("DesignForm-8D8E7C0F2493EDE\\TextBox-8D8E7C179673F96");
-		memberprototype10.DefaultValue = null;
-		memberprototype10.MemberName = "Text";
-		memberprototype10.MemberType = System.Reflection.MemberTypes.Property;
-		memberprototype10.Signature.ReturnType = null;
-		memberprototype10.TypeName = "System.String";
-		this.connectableProperties3.MemberPrototypes.Add(memberprototype10);
+		memberprototype11.DefaultValue = null;
+		memberprototype11.MemberName = "Text";
+		memberprototype11.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype11.Signature.ReturnType = null;
+		memberprototype11.TypeName = "System.String";
+		this.connectableProperties3.MemberPrototypes.Add(memberprototype11);
 		// 
 		// connectableProperties4
 		// 
@@ -360,12 +372,12 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		this.connectableProperties4.ExceptionsHandled = false;
 		this.connectableProperties4.InstanceTypeName = "System.Windows.Forms.TextBox";
 		this.connectableProperties4.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("DesignForm-8D8E7C0F2493EDE\\TextBox-8D8E7C180C31458");
-		memberprototype11.DefaultValue = null;
-		memberprototype11.MemberName = "Text";
-		memberprototype11.MemberType = System.Reflection.MemberTypes.Property;
-		memberprototype11.Signature.ReturnType = null;
-		memberprototype11.TypeName = "System.String";
-		this.connectableProperties4.MemberPrototypes.Add(memberprototype11);
+		memberprototype12.DefaultValue = null;
+		memberprototype12.MemberName = "Text";
+		memberprototype12.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype12.Signature.ReturnType = null;
+		memberprototype12.TypeName = "System.String";
+		this.connectableProperties4.MemberPrototypes.Add(memberprototype12);
 		// 
 		// connectableProperties5
 		// 
@@ -374,12 +386,12 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		this.connectableProperties5.ExceptionsHandled = false;
 		this.connectableProperties5.InstanceTypeName = "System.Windows.Forms.TextBox";
 		this.connectableProperties5.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("DesignForm-8D8E7C0F2493EDE\\TextBox-8D8E7C176FF01B7");
-		memberprototype12.DefaultValue = null;
-		memberprototype12.MemberName = "Text";
-		memberprototype12.MemberType = System.Reflection.MemberTypes.Property;
-		memberprototype12.Signature.ReturnType = null;
-		memberprototype12.TypeName = "System.String";
-		this.connectableProperties5.MemberPrototypes.Add(memberprototype12);
+		memberprototype13.DefaultValue = null;
+		memberprototype13.MemberName = "Text";
+		memberprototype13.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype13.Signature.ReturnType = null;
+		memberprototype13.TypeName = "System.String";
+		this.connectableProperties5.MemberPrototypes.Add(memberprototype13);
 		// 
 		// connectableProperties6
 		// 
@@ -388,12 +400,12 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		this.connectableProperties6.ExceptionsHandled = false;
 		this.connectableProperties6.InstanceTypeName = "System.Windows.Forms.TextBox";
 		this.connectableProperties6.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("DesignForm-8D8E7C0F2493EDE\\TextBox-8D8E7C1838AACA1");
-		memberprototype13.DefaultValue = null;
-		memberprototype13.MemberName = "Text";
-		memberprototype13.MemberType = System.Reflection.MemberTypes.Property;
-		memberprototype13.Signature.ReturnType = null;
-		memberprototype13.TypeName = "System.String";
-		this.connectableProperties6.MemberPrototypes.Add(memberprototype13);
+		memberprototype14.DefaultValue = null;
+		memberprototype14.MemberName = "Text";
+		memberprototype14.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype14.Signature.ReturnType = null;
+		memberprototype14.TypeName = "System.String";
+		this.connectableProperties6.MemberPrototypes.Add(memberprototype14);
 		// 
 		// connectableProperties7
 		// 
@@ -402,12 +414,12 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		this.connectableProperties7.ExceptionsHandled = false;
 		this.connectableProperties7.InstanceTypeName = "System.Windows.Forms.TextBox";
 		this.connectableProperties7.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("DesignForm-8D8E7C0F2493EDE\\TextBox-8D8E7C185B33A6A");
-		memberprototype14.DefaultValue = null;
-		memberprototype14.MemberName = "Text";
-		memberprototype14.MemberType = System.Reflection.MemberTypes.Property;
-		memberprototype14.Signature.ReturnType = null;
-		memberprototype14.TypeName = "System.String";
-		this.connectableProperties7.MemberPrototypes.Add(memberprototype14);
+		memberprototype15.DefaultValue = null;
+		memberprototype15.MemberName = "Text";
+		memberprototype15.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype15.Signature.ReturnType = null;
+		memberprototype15.TypeName = "System.String";
+		this.connectableProperties7.MemberPrototypes.Add(memberprototype15);
 		// 
 		// connectableProperties8
 		// 
@@ -416,12 +428,12 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		this.connectableProperties8.ExceptionsHandled = false;
 		this.connectableProperties8.InstanceTypeName = "System.Windows.Forms.ComboBox";
 		this.connectableProperties8.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("DesignForm-8D8E7C0F2493EDE\\ComboBox-8D8E7C192C47F16");
-		memberprototype15.DefaultValue = null;
-		memberprototype15.MemberName = "SelectedItem";
-		memberprototype15.MemberType = System.Reflection.MemberTypes.Property;
-		memberprototype15.Signature.ReturnType = null;
-		memberprototype15.TypeName = "System.Object";
-		this.connectableProperties8.MemberPrototypes.Add(memberprototype15);
+		memberprototype16.DefaultValue = null;
+		memberprototype16.MemberName = "SelectedItem";
+		memberprototype16.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype16.Signature.ReturnType = null;
+		memberprototype16.TypeName = "System.Object";
+		this.connectableProperties8.MemberPrototypes.Add(memberprototype16);
 		// 
 		// connectableProperties9
 		// 
@@ -430,12 +442,12 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		this.connectableProperties9.ExceptionsHandled = false;
 		this.connectableProperties9.InstanceTypeName = "System.String";
 		this.connectableProperties9.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("Automator-8D8E8980668067B\\HiddenTypeProxy-8D8E8981488A3C0");
-		memberprototype16.DefaultValue = null;
-		memberprototype16.MemberName = "This";
-		memberprototype16.MemberType = System.Reflection.MemberTypes.Property;
-		memberprototype16.Signature.ReturnType = null;
-		memberprototype16.TypeName = "System.String";
-		this.connectableProperties9.MemberPrototypes.Add(memberprototype16);
+		memberprototype17.DefaultValue = null;
+		memberprototype17.MemberName = "This";
+		memberprototype17.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype17.Signature.ReturnType = null;
+		memberprototype17.TypeName = "System.String";
+		this.connectableProperties9.MemberPrototypes.Add(memberprototype17);
 		// 
 		// jumpHost2
 		// 
@@ -443,14 +455,28 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		this.jumpHost2.ExceptionsHandled = false;
 		this.jumpHost2.InstanceTypeName = "OpenSpan.Automation.LabelHost";
 		this.jumpHost2.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("Automator-8D8E8980668067B\\LabelHost-8D8E8983D35E49D");
-		memberprototype17.DefaultValue = null;
-		memberprototype17.MemberName = "GoToLabel";
-		memberprototype17.MemberType = System.Reflection.MemberTypes.Method;
-		memberprototype17.Signature.ReturnType = "System.Void";
-		memberprototype17.TypeName = "System.Void";
-		this.jumpHost2.MemberPrototypes.Add(memberprototype17);
+		memberprototype18.DefaultValue = null;
+		memberprototype18.MemberName = "GoToLabel";
+		memberprototype18.MemberType = System.Reflection.MemberTypes.Method;
+		memberprototype18.Signature.ReturnType = "System.Void";
+		memberprototype18.TypeName = "System.Void";
+		this.jumpHost2.MemberPrototypes.Add(memberprototype18);
 		this.jumpHost2.ParamsLength = 0;
 		this.jumpHost2.SerializedParamsDefaultValues = "";
+		// 
+		// connectableProperties10
+		// 
+		this.connectableProperties10.DefaultValues = "";
+		this.connectableProperties10.DisplayName = "Properties";
+		this.connectableProperties10.ExceptionsHandled = false;
+		this.connectableProperties10.InstanceTypeName = "System.Windows.Forms.Label";
+		this.connectableProperties10.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("DesignForm-8D8E7C0F2493EDE\\Label-8D8E7C1639A6C9E");
+		memberprototype19.DefaultValue = null;
+		memberprototype19.MemberName = "Text";
+		memberprototype19.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype19.Signature.ReturnType = null;
+		memberprototype19.TypeName = "System.String";
+		this.connectableProperties10.MemberPrototypes.Add(memberprototype19);
 		// 
 		// Initialize CodeDom data
 		// 
@@ -475,6 +501,7 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		this.Components.Add(this.connectableProperties8);
 		this.Components.Add(this.connectableProperties9);
 		this.Components.Add(this.jumpHost2);
+		this.Components.Add(this.connectableProperties10);
 	}
 	
 	private System.Collections.Generic.List<System.ComponentModel.IComponent> mComponents;
@@ -879,12 +906,19 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		memberprototype6.MemberType = System.Reflection.MemberTypes.Property;
 		memberprototype6.Signature.ReturnType = null;
 		memberprototype6.TypeName = "System.String";
+		OpenSpan.Automation.MemberPrototype memberprototype7 = new OpenSpan.Automation.MemberPrototype();
+		memberprototype7.DefaultValue = null;
+		memberprototype7.MemberName = "NearestStore";
+		memberprototype7.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype7.Signature.ReturnType = null;
+		memberprototype7.TypeName = "System.String";
 		connectableProperties1.MemberPrototypes.Add(memberprototype1);
 		connectableProperties1.MemberPrototypes.Add(memberprototype2);
 		connectableProperties1.MemberPrototypes.Add(memberprototype3);
 		connectableProperties1.MemberPrototypes.Add(memberprototype4);
 		connectableProperties1.MemberPrototypes.Add(memberprototype5);
 		connectableProperties1.MemberPrototypes.Add(memberprototype6);
+		connectableProperties1.MemberPrototypes.Add(memberprototype7);
 		// 
 		// Result
 		// 
@@ -1097,6 +1131,29 @@ public sealed class Main_P_LoadCustInfoValues : OpenSpan.Automation.Automator
 		// Result
 		// 
 		return jumpHost2;
+	}
+	
+	internal OpenSpan.Automation.ConnectableProperties Create_connectableProperties10(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.Automation.ConnectableProperties connectableProperties10 = new OpenSpan.Automation.ConnectableProperties();
+		this.SetId(connectableProperties10, new OpenSpan.Design.ComponentIdentity("ConnectableProperties-8D8EAB8A22B33AC"));
+		connectableProperties10.DefaultValues = "";
+		connectableProperties10.DisplayName = "Properties";
+		connectableProperties10.ExceptionsHandled = false;
+		connectableProperties10.InstanceTypeName = "System.Windows.Forms.Label";
+		connectableProperties10.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("DesignForm-8D8E7C0F2493EDE\\Label-8D8E7C1639A6C9E");
+		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
+		memberprototype1.DefaultValue = null;
+		memberprototype1.MemberName = "Text";
+		memberprototype1.MemberType = System.Reflection.MemberTypes.Property;
+		memberprototype1.Signature.ReturnType = null;
+		memberprototype1.TypeName = "System.String";
+		connectableProperties10.MemberPrototypes.Add(memberprototype1);
+		// 
+		// Result
+		// 
+		return connectableProperties10;
 	}
 }
 

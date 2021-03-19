@@ -12,9 +12,13 @@ using MainPrj_Main_E_UpdateDisplay_ActivityStarted = MainPrj.Main_E_UpdateDispla
 
 using MainPrj_frmCustInfo = MainPrj.frmCustInfo;
 
-using MainPrj_Main_P_LoadCustInfoValues = MainPrj.Main_P_LoadCustInfoValues;
-
 using MainPrj__GC_Main = MainPrj._GC_Main;
+
+using MainPrj_insira__Main_E_IntMgr_TextChanged = MainPrj.insira__Main_E_IntMgr_TextChanged;
+
+using MainPrj_Main_E_actGetNearestStore_ActivityCompleted = MainPrj.Main_E_actGetNearestStore_ActivityCompleted;
+
+using MainPrj_Main_P_LoadCustInfoValues = MainPrj.Main_P_LoadCustInfoValues;
 
 using System;
 
@@ -550,21 +554,39 @@ public sealed class MainPrj : OpenSpan.Runtime.RuntimeProject
 		}
 	}
 	
-	// Automator-8D8E8980668067B
-	public MainPrj_Main_P_LoadCustInfoValues Main_P_LoadCustInfoValues
-	{
-		get
-		{
-			return ((MainPrj_Main_P_LoadCustInfoValues)(this["Main_P_LoadCustInfoValues"]));
-		}
-	}
-	
 	// GlobalContainer-8D8E7CAB540ACF2
 	public MainPrj__GC_Main _GC_Main
 	{
 		get
 		{
 			return ((MainPrj__GC_Main)(this["_GC_Main"]));
+		}
+	}
+	
+	// Automator-8D8EABA24043DC4
+	public MainPrj_insira__Main_E_IntMgr_TextChanged insira__Main_E_IntMgr_TextChanged
+	{
+		get
+		{
+			return ((MainPrj_insira__Main_E_IntMgr_TextChanged)(this["insira__Main_E_IntMgr_TextChanged"]));
+		}
+	}
+	
+	// Automator-8D8EAB2264A4B95
+	public MainPrj_Main_E_actGetNearestStore_ActivityCompleted Main_E_actGetNearestStore_ActivityCompleted
+	{
+		get
+		{
+			return ((MainPrj_Main_E_actGetNearestStore_ActivityCompleted)(this["Main_E_actGetNearestStore_ActivityCompleted"]));
+		}
+	}
+	
+	// Automator-8D8E8980668067B
+	public MainPrj_Main_P_LoadCustInfoValues Main_P_LoadCustInfoValues
+	{
+		get
+		{
+			return ((MainPrj_Main_P_LoadCustInfoValues)(this["Main_P_LoadCustInfoValues"]));
 		}
 	}
 }

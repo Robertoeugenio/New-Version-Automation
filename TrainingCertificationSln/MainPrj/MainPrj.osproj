@@ -171,6 +171,14 @@
     <EmbeddedResource Include="Properties\ImportTypeMap.resx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Events\insira  Main_E_IntMgr_TextChanged.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8EABA24043DC4</Id>
+    </Compile>
+    <Compile Include="Events\Main_E_actGetNearestStore_ActivityCompleted.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8EAB2264A4B95</Id>
+    </Compile>
     <Compile Include="Events\Main_E_btnNearestStore_Click.os">
       <SubType>Component</SubType>
       <Id>Automator-8D8EA1DE921DBF4</Id>

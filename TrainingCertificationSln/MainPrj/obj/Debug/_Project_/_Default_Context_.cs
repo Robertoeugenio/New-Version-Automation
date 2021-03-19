@@ -21,6 +21,8 @@ namespace MainPrj.Project
 			mName = "Default";
 			mIsDefault = true;
 			mContextType = OpenSpan.Solution.ContextType.Local;
+			base.DesignComponentTypes.Add("MainPrj.insira__Main_E_IntMgr_TextChanged");
+			base.DesignComponentTypes.Add("MainPrj.Main_E_actGetNearestStore_ActivityCompleted");
 			base.DesignComponentTypes.Add("MainPrj.Main_E_btnNearestStore_Click");
 			base.DesignComponentTypes.Add("MainPrj.Main_E_cmbGetAcct_SelectedIndexChanged");
 			base.DesignComponentTypes.Add("MainPrj.Main_E_IntMgr_InteractionActivated");
