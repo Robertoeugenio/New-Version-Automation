@@ -22,6 +22,9 @@ public sealed class _GC_Main : OpenSpan.Automation.GlobalContainer
 	[OpenSpan.Design.ComponentIdentityAttribute("GlobalContainer-8D8E7CAB540ACF2\\Activity-8D8EA02524D88A2")]
 	public OpenSpan.Interactions.Controls.Activity MainactActivateMDIWin;
 	
+	[OpenSpan.Design.ComponentIdentityAttribute("GlobalContainer-8D8E7CAB540ACF2\\Activity-8D8EA1D65170B4D")]
+	public OpenSpan.Interactions.Controls.Activity MainactGetNearestStore;
+	
 	public _GC_Main()
 	{
 		// 
@@ -64,9 +67,20 @@ public sealed class _GC_Main : OpenSpan.Automation.GlobalContainer
 		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo14 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
 		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo15 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
 		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo16 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo10 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo11 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo17 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo18 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo19 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo20 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo21 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo22 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo23 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo24 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
 		this.IntMgr = new OpenSpan.Interactions.Controls.InteractionManager();
 		this.MainactUpdateDisplay = new OpenSpan.Interactions.Controls.Activity();
 		this.MainactActivateMDIWin = new OpenSpan.Interactions.Controls.Activity();
+		this.MainactGetNearestStore = new OpenSpan.Interactions.Controls.Activity();
 		// 
 		// Initialize design component
 		// 
@@ -81,6 +95,7 @@ public sealed class _GC_Main : OpenSpan.Automation.GlobalContainer
 		this.SetId(this.IntMgr, new OpenSpan.Design.ComponentIdentity("InteractionManager-8D8E7CEFABF9F31"));
 		this.SetId(this.MainactUpdateDisplay, new OpenSpan.Design.ComponentIdentity("Activity-8D8E921C3DD367F"));
 		this.SetId(this.MainactActivateMDIWin, new OpenSpan.Design.ComponentIdentity("Activity-8D8EA02524D88A2"));
+		this.SetId(this.MainactGetNearestStore, new OpenSpan.Design.ComponentIdentity("Activity-8D8EA1D65170B4D"));
 		// 
 		// _GC_Main
 		// 
@@ -257,12 +272,63 @@ public sealed class _GC_Main : OpenSpan.Automation.GlobalContainer
 		this.MainactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo15);
 		this.MainactActivateMDIWin.DynamicMembers.Add(dynamicmethodinfo16);
 		// 
+		// MainactGetNearestStore
+		// 
+		this.MainactGetNearestStore.ActivityName = "GetNearestStore";
+		dynamicpropertyinfo10.IsSerializable = true;
+		dynamicpropertyinfo10.NoInputConvesion = false;
+		dynamicpropertyinfo10.Source = "";
+		dynamicpropertyinfo10.ValidateConnectionCallback = null;
+		dynamicpropertyinfo10.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo10.CodeDomData = resources.GetString("__GC_Main_34_");
+		dynamicpropertyinfo11.IsSerializable = true;
+		dynamicpropertyinfo11.NoInputConvesion = false;
+		dynamicpropertyinfo11.Source = "";
+		dynamicpropertyinfo11.ValidateConnectionCallback = null;
+		dynamicpropertyinfo11.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo11.CodeDomData = resources.GetString("__GC_Main_35_");
+		dynamicmethodinfo17.Source = "";
+		dynamicmethodinfo17.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo17.CodeDomData = resources.GetString("__GC_Main_36_");
+		dynamicmethodinfo18.Source = "";
+		dynamicmethodinfo18.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo18.CodeDomData = resources.GetString("__GC_Main_37_");
+		dynamicmethodinfo19.Source = "";
+		dynamicmethodinfo19.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo19.CodeDomData = resources.GetString("__GC_Main_38_");
+		dynamicmethodinfo20.Source = "";
+		dynamicmethodinfo20.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo20.CodeDomData = resources.GetString("__GC_Main_39_");
+		dynamicmethodinfo21.Source = "";
+		dynamicmethodinfo21.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo21.CodeDomData = resources.GetString("__GC_Main_40_");
+		dynamicmethodinfo22.Source = "";
+		dynamicmethodinfo22.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo22.CodeDomData = resources.GetString("__GC_Main_41_");
+		dynamicmethodinfo23.Source = "";
+		dynamicmethodinfo23.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo23.CodeDomData = resources.GetString("__GC_Main_42_");
+		dynamicmethodinfo24.Source = "";
+		dynamicmethodinfo24.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo24.CodeDomData = resources.GetString("__GC_Main_43_");
+		this.MainactGetNearestStore.DynamicMembers.Add(dynamicpropertyinfo10);
+		this.MainactGetNearestStore.DynamicMembers.Add(dynamicpropertyinfo11);
+		this.MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo17);
+		this.MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo18);
+		this.MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo19);
+		this.MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo20);
+		this.MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo21);
+		this.MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo22);
+		this.MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo23);
+		this.MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo24);
+		// 
 		// Add components
 		// 
 		this.mComponents = new System.Collections.Generic.List<System.ComponentModel.IComponent>(20);
 		this.Components.Add(this.IntMgr);
 		this.Components.Add(this.MainactUpdateDisplay);
 		this.Components.Add(this.MainactActivateMDIWin);
+		this.Components.Add(this.MainactGetNearestStore);
 	}
 	
 	private System.Collections.Generic.List<System.ComponentModel.IComponent> mComponents;
@@ -517,6 +583,75 @@ public sealed class _GC_Main : OpenSpan.Automation.GlobalContainer
 		// Result
 		// 
 		return MainactActivateMDIWin;
+	}
+	
+	internal OpenSpan.Interactions.Controls.Activity Create_MainactGetNearestStore(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(_GC_Main));
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.Interactions.Controls.Activity MainactGetNearestStore = new OpenSpan.Interactions.Controls.Activity();
+		this.SetId(MainactGetNearestStore, new OpenSpan.Design.ComponentIdentity("Activity-8D8EA1D65170B4D"));
+		MainactGetNearestStore.ActivityName = "GetNearestStore";
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo1 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		dynamicpropertyinfo1.IsSerializable = true;
+		dynamicpropertyinfo1.NoInputConvesion = false;
+		dynamicpropertyinfo1.Source = "";
+		dynamicpropertyinfo1.ValidateConnectionCallback = null;
+		dynamicpropertyinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo1.CodeDomData = _resources_.GetString("__GC_Main_34_");
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo2 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		dynamicpropertyinfo2.IsSerializable = true;
+		dynamicpropertyinfo2.NoInputConvesion = false;
+		dynamicpropertyinfo2.Source = "";
+		dynamicpropertyinfo2.ValidateConnectionCallback = null;
+		dynamicpropertyinfo2.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo2.CodeDomData = _resources_.GetString("__GC_Main_35_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo1 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo1.Source = "";
+		dynamicmethodinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo1.CodeDomData = _resources_.GetString("__GC_Main_36_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo2 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo2.Source = "";
+		dynamicmethodinfo2.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo2.CodeDomData = _resources_.GetString("__GC_Main_37_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo3 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo3.Source = "";
+		dynamicmethodinfo3.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo3.CodeDomData = _resources_.GetString("__GC_Main_38_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo4 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo4.Source = "";
+		dynamicmethodinfo4.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo4.CodeDomData = _resources_.GetString("__GC_Main_39_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo5 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo5.Source = "";
+		dynamicmethodinfo5.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo5.CodeDomData = _resources_.GetString("__GC_Main_40_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo6 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo6.Source = "";
+		dynamicmethodinfo6.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo6.CodeDomData = _resources_.GetString("__GC_Main_41_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo7 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo7.Source = "";
+		dynamicmethodinfo7.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo7.CodeDomData = _resources_.GetString("__GC_Main_42_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo8 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo8.Source = "";
+		dynamicmethodinfo8.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo8.CodeDomData = _resources_.GetString("__GC_Main_43_");
+		MainactGetNearestStore.DynamicMembers.Add(dynamicpropertyinfo1);
+		MainactGetNearestStore.DynamicMembers.Add(dynamicpropertyinfo2);
+		MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo1);
+		MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo2);
+		MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo3);
+		MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo4);
+		MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo5);
+		MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo6);
+		MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo7);
+		MainactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo8);
+		// 
+		// Result
+		// 
+		return MainactGetNearestStore;
 	}
 }
 

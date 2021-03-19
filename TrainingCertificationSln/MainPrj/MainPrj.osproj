@@ -171,6 +171,10 @@
     <EmbeddedResource Include="Properties\ImportTypeMap.resx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Events\Main_E_btnNearestStore_Click.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8EA1DE921DBF4</Id>
+    </Compile>
     <Compile Include="Events\Main_E_cmbGetAcct_SelectedIndexChanged.os">
       <SubType>Component</SubType>
       <Id>Automator-8D8E9EF00EDBAD0</Id>

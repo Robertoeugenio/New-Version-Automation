@@ -1,12 +1,10 @@
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\CRMPrj.ScreenShots.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\OpenSpan.Adapters.Virtual.dll
-C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\OpenSpan.WinInet.x32.dll
-C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\OpenSpan.WinInet.x64.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\RuntimeConfig.xml
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\DefaultWindowFactoryConfiguration.xml
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\openspan.ini
-C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\OpenSpan.Translators.InternetExplorer.x32.dll
-C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\OpenSpan.Translators.InternetExplorer.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\OpenSpan.Virtual.Interfaces.delegates.tlb
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\OpenSpan.Virtual.Interfaces.tlb
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\OpenSpan.x32.sys
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\OpenSpan.x64.sys
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\Pega.ActiveX.x32.dll
@@ -15,6 +13,7 @@ C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificat
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\Pega.GlobalAllocator.x64.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\Pega.Native.Remoting.x32.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\Pega.Native.Remoting.x64.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\Pega.Remoting.tlb
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\Pega.Scout.x32.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\Pega.Scout.x64.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\Pega.Security.x32.dll
@@ -31,9 +30,6 @@ C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificat
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\Pega.Windows.Broker.x64.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\Pega.WinQueue.x32.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\Pega.WinQueue.x64.dll
-C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\OpenSpan.Virtual.Interfaces.delegates.tlb
-C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\OpenSpan.Virtual.Interfaces.tlb
-C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\Pega.Remoting.tlb
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\CRMPrj.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\bin\Debug\CRMPrj.pdb
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\obj\Debug\ImportTypeMap.resources
@@ -43,4 +39,3 @@ C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificat
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\obj\Debug\CRM.screenshots.resx
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\obj\Debug\CRMPrj.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\obj\Debug\CRMPrj.pdb
-C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\CRMPrj\obj\Debug\CRMPrj.osprojResolveAssemblyReference.cache

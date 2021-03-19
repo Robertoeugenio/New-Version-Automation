@@ -441,6 +441,16 @@
           </OpenSpan.Adapters.Controls.Form>
         </Items>
       </Content>
+      <Content Name="Credentials">
+        <Items>
+          <OpenSpan.ApplicationFramework.AssistedSignOn.Credential>
+            <ApplicationKey Value="CRM" />
+            <LoginControl Value="WindowsAdapter-8D8DFE68142AF1E\Button-8D8DFF16A0C389F" />
+            <PasswordControl Value="WindowsAdapter-8D8DFE68142AF1E\TextBox-8D8DFF1C7CECE46" />
+            <UserNameControl Value="WindowsAdapter-8D8DFE68142AF1E\TextBox-8D8DFF1BDF4C916" />
+          </OpenSpan.ApplicationFramework.AssistedSignOn.Credential>
+        </Items>
+      </Content>
     </OpenSpan.Adapters.Windows.WindowsAdapter>
     <OpenSpan.Adapters.Virtual.VirtualMatchRules.VirtualControlNativeControlNameMatchRule Name="virtualControlNativeControlNameMat9" Id="VirtualControlNativeControlNameMatchRule-8D8DFF858657048">
       <NativeControlName Value="Simple|True|(User Culture)|" />

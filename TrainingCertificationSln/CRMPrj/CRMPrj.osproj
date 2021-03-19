@@ -226,10 +226,6 @@
     <EmbeddedResource Include="Properties\MessageManifest.resx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ACMESearch.os">
-      <SubType>Component</SubType>
-      <Id>WebAdapter-8D8DE2BB139348E</Id>
-    </Compile>
     <Compile Include="CRM.os">
       <SubType>Component</SubType>
       <Id>WindowsAdapter-8D8DFE68142AF1E</Id>

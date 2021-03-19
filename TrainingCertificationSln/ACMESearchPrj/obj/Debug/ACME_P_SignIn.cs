@@ -8,6 +8,8 @@ namespace ACMESearchPrj
 // Automator-8D8E55BD1146088
 [OpenSpan.Design.ComponentIdentityAttribute("Automator-8D8E55BD1146088")]
 [System.ComponentModel.ToolboxItemAttribute(false)]
+[OpenSpan.Runtime.RuntimeReferenceAttribute("System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c5619" +
+	"34e089")]
 public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 {
 	
@@ -39,6 +41,12 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 	private OpenSpan.Automation.ConnectableMethod connectableMethod3;
 	
 	private OpenSpan.Automation.ConnectableMethod connectableMethod2;
+	
+	private OpenSpan.Automation.ConnectableMethod connectableMethod4;
+	
+	private OpenSpan.Automation.ConnectableMethod connectableMethod5;
+	
+	private OpenSpan.Automation.ConnectableMethod connectableMethod6;
 	
 	public ACME_P_SignIn()
 	{
@@ -73,6 +81,15 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 		OpenSpan.Automation.ParameterPrototype parameterprototype3 = new OpenSpan.Automation.ParameterPrototype();
 		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo8 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
 		OpenSpan.Automation.MemberPrototype memberprototype9 = new OpenSpan.Automation.MemberPrototype();
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo9 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		OpenSpan.Automation.MemberPrototype memberprototype10 = new OpenSpan.Automation.MemberPrototype();
+		OpenSpan.Automation.ParameterPrototype parameterprototype4 = new OpenSpan.Automation.ParameterPrototype();
+		OpenSpan.Automation.MemberPrototype memberprototype11 = new OpenSpan.Automation.MemberPrototype();
+		OpenSpan.Automation.ParameterPrototype parameterprototype5 = new OpenSpan.Automation.ParameterPrototype();
+		OpenSpan.Automation.ParameterPrototype parameterprototype6 = new OpenSpan.Automation.ParameterPrototype();
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo10 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		OpenSpan.Automation.MemberPrototype memberprototype12 = new OpenSpan.Automation.MemberPrototype();
+		OpenSpan.Automation.ParameterPrototype parameterprototype7 = new OpenSpan.Automation.ParameterPrototype();
 		this.entryPoint1 = new OpenSpan.Automation.EntryPoint();
 		this.labelHost1 = new OpenSpan.Automation.LabelHost();
 		this.labelHost2 = new OpenSpan.Automation.LabelHost();
@@ -87,6 +104,9 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 		this.jumpHost3 = new OpenSpan.Automation.JumpHost();
 		this.connectableMethod3 = new OpenSpan.Automation.ConnectableMethod();
 		this.connectableMethod2 = new OpenSpan.Automation.ConnectableMethod();
+		this.connectableMethod4 = new OpenSpan.Automation.ConnectableMethod();
+		this.connectableMethod5 = new OpenSpan.Automation.ConnectableMethod();
+		this.connectableMethod6 = new OpenSpan.Automation.ConnectableMethod();
 		// 
 		// Initialize design component
 		// 
@@ -112,11 +132,14 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 		this.SetId(this.jumpHost3, new OpenSpan.Design.ComponentIdentity("JumpHost-8D8E55C921362E7"));
 		this.SetId(this.connectableMethod3, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E5698F57ABF3"));
 		this.SetId(this.connectableMethod2, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8E7A46B425E5E"));
+		this.SetId(this.connectableMethod4, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8EA3861375831"));
+		this.SetId(this.connectableMethod5, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8EA386B82C04D"));
+		this.SetId(this.connectableMethod6, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8EA3873127E05"));
 		// 
 		// ACME_P_SignIn
 		// 
 		ComponentInfo.CodeDomData = _resources_.GetString("_ACME_P_SignIn_1_");
-		this.DocumentScale = 0.6983373F;
+		this.DocumentScale = 0.8846071F;
 		dynamicmethodinfo1.BlockTypeName = "OpenSpan.Automation.Design.ConnectionBlocks.EntryPointExecuteBlock";
 		dynamicmethodinfo1.Source = "";
 		dynamicmethodinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
@@ -395,6 +418,97 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 		this.connectableMethod2.ParamsLength = 0;
 		this.connectableMethod2.SerializedParamsDefaultValues = "";
 		// 
+		// connectableMethod4
+		// 
+		this.connectableMethod4.DisplayName = "<IsPasswordSet>";
+		dynamicpropertyinfo9.IsSerializable = true;
+		dynamicpropertyinfo9.NoInputConvesion = false;
+		dynamicpropertyinfo9.Source = "";
+		dynamicpropertyinfo9.ValidateConnectionCallback = null;
+		dynamicpropertyinfo9.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo9.CodeDomData = _resources_.GetString("_ACME_P_SignIn_10_");
+		this.connectableMethod4.DynamicMembers.Add(dynamicpropertyinfo9);
+		this.connectableMethod4.ExceptionsHandled = false;
+		this.connectableMethod4.InstanceTypeName = "OpenSpan.ApplicationFramework.AssistedSignOn.AsoManager";
+		this.connectableMethod4.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("GlobalContainer-8D8E855CDDFD15A\\AsoManager-8D8EA382D97EB6D");
+		memberprototype10.DefaultValue = null;
+		memberprototype10.MemberName = "IsPasswordSet";
+		memberprototype10.MemberType = System.Reflection.MemberTypes.Method;
+		parameterprototype4.CanRead = false;
+		parameterprototype4.CanWrite = true;
+		parameterprototype4.DefaultSet = true;
+		parameterprototype4.DefaultValue = "ACME";
+		parameterprototype4.ParamName = "applicationKey";
+		parameterprototype4.Position = 0;
+		parameterprototype4.TypeName = "System.String";
+		memberprototype10.Signature.ParameterPrototype.Add(parameterprototype4);
+		memberprototype10.Signature.ReturnType = "System.Boolean";
+		memberprototype10.TypeName = "System.Boolean";
+		this.connectableMethod4.MemberPrototypes.Add(memberprototype10);
+		this.connectableMethod4.ParamsLength = 0;
+		this.connectableMethod4.SerializedParamsDefaultValues = "";
+		// 
+		// connectableMethod5
+		// 
+		this.connectableMethod5.DisplayName = "<ShowCredentialDialog>";
+		this.connectableMethod5.ExceptionsHandled = false;
+		this.connectableMethod5.InstanceTypeName = "OpenSpan.ApplicationFramework.AssistedSignOn.AsoManager";
+		this.connectableMethod5.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("GlobalContainer-8D8E855CDDFD15A\\AsoManager-8D8EA382D97EB6D");
+		memberprototype11.DefaultValue = null;
+		memberprototype11.MemberName = "ShowCredentialDialog";
+		memberprototype11.MemberType = System.Reflection.MemberTypes.Method;
+		parameterprototype5.CanRead = false;
+		parameterprototype5.CanWrite = true;
+		parameterprototype5.DefaultSet = true;
+		parameterprototype5.DefaultValue = "ACME";
+		parameterprototype5.ParamName = "applicationKey";
+		parameterprototype5.Position = 0;
+		parameterprototype5.TypeName = "System.String";
+		parameterprototype6.CanRead = true;
+		parameterprototype6.CanWrite = false;
+		parameterprototype6.DefaultSet = false;
+		parameterprototype6.DefaultValue = null;
+		parameterprototype6.ParamName = "credentialsModified";
+		parameterprototype6.Position = 1;
+		parameterprototype6.TypeName = "System.Boolean";
+		memberprototype11.Signature.ParameterPrototype.Add(parameterprototype5);
+		memberprototype11.Signature.ParameterPrototype.Add(parameterprototype6);
+		memberprototype11.Signature.ReturnType = "System.Void";
+		memberprototype11.TypeName = "System.Void";
+		this.connectableMethod5.MemberPrototypes.Add(memberprototype11);
+		this.connectableMethod5.ParamsLength = 0;
+		this.connectableMethod5.SerializedParamsDefaultValues = "";
+		// 
+		// connectableMethod6
+		// 
+		this.connectableMethod6.DisplayName = "<PerformLogin>";
+		dynamicpropertyinfo10.IsSerializable = true;
+		dynamicpropertyinfo10.NoInputConvesion = false;
+		dynamicpropertyinfo10.Source = "";
+		dynamicpropertyinfo10.ValidateConnectionCallback = null;
+		dynamicpropertyinfo10.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo10.CodeDomData = _resources_.GetString("_ACME_P_SignIn_10_");
+		this.connectableMethod6.DynamicMembers.Add(dynamicpropertyinfo10);
+		this.connectableMethod6.ExceptionsHandled = false;
+		this.connectableMethod6.InstanceTypeName = "OpenSpan.ApplicationFramework.AssistedSignOn.AsoManager";
+		this.connectableMethod6.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("GlobalContainer-8D8E855CDDFD15A\\AsoManager-8D8EA382D97EB6D");
+		memberprototype12.DefaultValue = null;
+		memberprototype12.MemberName = "PerformLogin";
+		memberprototype12.MemberType = System.Reflection.MemberTypes.Method;
+		parameterprototype7.CanRead = false;
+		parameterprototype7.CanWrite = true;
+		parameterprototype7.DefaultSet = true;
+		parameterprototype7.DefaultValue = "ACME";
+		parameterprototype7.ParamName = "applicationKey";
+		parameterprototype7.Position = 0;
+		parameterprototype7.TypeName = "System.String";
+		memberprototype12.Signature.ParameterPrototype.Add(parameterprototype7);
+		memberprototype12.Signature.ReturnType = "System.Boolean";
+		memberprototype12.TypeName = "System.Boolean";
+		this.connectableMethod6.MemberPrototypes.Add(memberprototype12);
+		this.connectableMethod6.ParamsLength = 0;
+		this.connectableMethod6.SerializedParamsDefaultValues = "";
+		// 
 		// Initialize CodeDom data
 		// 
 		this.CodeDomData = _resources_.GetString("_ACME_P_SignIn_11_");
@@ -416,6 +530,9 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 		this.Components.Add(this.jumpHost3);
 		this.Components.Add(this.connectableMethod3);
 		this.Components.Add(this.connectableMethod2);
+		this.Components.Add(this.connectableMethod4);
+		this.Components.Add(this.connectableMethod5);
+		this.Components.Add(this.connectableMethod6);
 	}
 	
 	private System.Collections.Generic.List<System.ComponentModel.IComponent> mComponents;
@@ -936,6 +1053,132 @@ public sealed class ACME_P_SignIn : OpenSpan.Automation.Automator
 		// Result
 		// 
 		return connectableMethod2;
+	}
+	
+	internal OpenSpan.Automation.ConnectableMethod Create_connectableMethod4(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(ACME_P_SignIn));
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.Automation.ConnectableMethod connectableMethod4 = new OpenSpan.Automation.ConnectableMethod();
+		this.SetId(connectableMethod4, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8EA3861375831"));
+		connectableMethod4.DisplayName = "<IsPasswordSet>";
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo1 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		dynamicpropertyinfo1.IsSerializable = true;
+		dynamicpropertyinfo1.NoInputConvesion = false;
+		dynamicpropertyinfo1.Source = "";
+		dynamicpropertyinfo1.ValidateConnectionCallback = null;
+		dynamicpropertyinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo1.CodeDomData = _resources_.GetString("_ACME_P_SignIn_10_");
+		connectableMethod4.DynamicMembers.Add(dynamicpropertyinfo1);
+		connectableMethod4.ExceptionsHandled = false;
+		connectableMethod4.InstanceTypeName = "OpenSpan.ApplicationFramework.AssistedSignOn.AsoManager";
+		connectableMethod4.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("GlobalContainer-8D8E855CDDFD15A\\AsoManager-8D8EA382D97EB6D");
+		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
+		memberprototype1.DefaultValue = null;
+		memberprototype1.MemberName = "IsPasswordSet";
+		memberprototype1.MemberType = System.Reflection.MemberTypes.Method;
+		OpenSpan.Automation.ParameterPrototype parameterprototype1 = new OpenSpan.Automation.ParameterPrototype();
+		parameterprototype1.CanRead = false;
+		parameterprototype1.CanWrite = true;
+		parameterprototype1.DefaultSet = true;
+		parameterprototype1.DefaultValue = "ACME";
+		parameterprototype1.ParamName = "applicationKey";
+		parameterprototype1.Position = 0;
+		parameterprototype1.TypeName = "System.String";
+		memberprototype1.Signature.ParameterPrototype.Add(parameterprototype1);
+		memberprototype1.Signature.ReturnType = "System.Boolean";
+		memberprototype1.TypeName = "System.Boolean";
+		connectableMethod4.MemberPrototypes.Add(memberprototype1);
+		connectableMethod4.ParamsLength = 0;
+		connectableMethod4.SerializedParamsDefaultValues = "";
+		// 
+		// Result
+		// 
+		return connectableMethod4;
+	}
+	
+	internal OpenSpan.Automation.ConnectableMethod Create_connectableMethod5(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.Automation.ConnectableMethod connectableMethod5 = new OpenSpan.Automation.ConnectableMethod();
+		this.SetId(connectableMethod5, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8EA386B82C04D"));
+		connectableMethod5.DisplayName = "<ShowCredentialDialog>";
+		connectableMethod5.ExceptionsHandled = false;
+		connectableMethod5.InstanceTypeName = "OpenSpan.ApplicationFramework.AssistedSignOn.AsoManager";
+		connectableMethod5.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("GlobalContainer-8D8E855CDDFD15A\\AsoManager-8D8EA382D97EB6D");
+		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
+		memberprototype1.DefaultValue = null;
+		memberprototype1.MemberName = "ShowCredentialDialog";
+		memberprototype1.MemberType = System.Reflection.MemberTypes.Method;
+		OpenSpan.Automation.ParameterPrototype parameterprototype1 = new OpenSpan.Automation.ParameterPrototype();
+		parameterprototype1.CanRead = false;
+		parameterprototype1.CanWrite = true;
+		parameterprototype1.DefaultSet = true;
+		parameterprototype1.DefaultValue = "ACME";
+		parameterprototype1.ParamName = "applicationKey";
+		parameterprototype1.Position = 0;
+		parameterprototype1.TypeName = "System.String";
+		OpenSpan.Automation.ParameterPrototype parameterprototype2 = new OpenSpan.Automation.ParameterPrototype();
+		parameterprototype2.CanRead = true;
+		parameterprototype2.CanWrite = false;
+		parameterprototype2.DefaultSet = false;
+		parameterprototype2.DefaultValue = null;
+		parameterprototype2.ParamName = "credentialsModified";
+		parameterprototype2.Position = 1;
+		parameterprototype2.TypeName = "System.Boolean";
+		memberprototype1.Signature.ParameterPrototype.Add(parameterprototype1);
+		memberprototype1.Signature.ParameterPrototype.Add(parameterprototype2);
+		memberprototype1.Signature.ReturnType = "System.Void";
+		memberprototype1.TypeName = "System.Void";
+		connectableMethod5.MemberPrototypes.Add(memberprototype1);
+		connectableMethod5.ParamsLength = 0;
+		connectableMethod5.SerializedParamsDefaultValues = "";
+		// 
+		// Result
+		// 
+		return connectableMethod5;
+	}
+	
+	internal OpenSpan.Automation.ConnectableMethod Create_connectableMethod6(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(ACME_P_SignIn));
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.Automation.ConnectableMethod connectableMethod6 = new OpenSpan.Automation.ConnectableMethod();
+		this.SetId(connectableMethod6, new OpenSpan.Design.ComponentIdentity("ConnectableMethod-8D8EA3873127E05"));
+		connectableMethod6.DisplayName = "<PerformLogin>";
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo1 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		dynamicpropertyinfo1.IsSerializable = true;
+		dynamicpropertyinfo1.NoInputConvesion = false;
+		dynamicpropertyinfo1.Source = "";
+		dynamicpropertyinfo1.ValidateConnectionCallback = null;
+		dynamicpropertyinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo1.CodeDomData = _resources_.GetString("_ACME_P_SignIn_10_");
+		connectableMethod6.DynamicMembers.Add(dynamicpropertyinfo1);
+		connectableMethod6.ExceptionsHandled = false;
+		connectableMethod6.InstanceTypeName = "OpenSpan.ApplicationFramework.AssistedSignOn.AsoManager";
+		connectableMethod6.InstanceUniqueId = new OpenSpan.Design.ComponentIdentity("GlobalContainer-8D8E855CDDFD15A\\AsoManager-8D8EA382D97EB6D");
+		OpenSpan.Automation.MemberPrototype memberprototype1 = new OpenSpan.Automation.MemberPrototype();
+		memberprototype1.DefaultValue = null;
+		memberprototype1.MemberName = "PerformLogin";
+		memberprototype1.MemberType = System.Reflection.MemberTypes.Method;
+		OpenSpan.Automation.ParameterPrototype parameterprototype1 = new OpenSpan.Automation.ParameterPrototype();
+		parameterprototype1.CanRead = false;
+		parameterprototype1.CanWrite = true;
+		parameterprototype1.DefaultSet = true;
+		parameterprototype1.DefaultValue = "ACME";
+		parameterprototype1.ParamName = "applicationKey";
+		parameterprototype1.Position = 0;
+		parameterprototype1.TypeName = "System.String";
+		memberprototype1.Signature.ParameterPrototype.Add(parameterprototype1);
+		memberprototype1.Signature.ReturnType = "System.Boolean";
+		memberprototype1.TypeName = "System.Boolean";
+		connectableMethod6.MemberPrototypes.Add(memberprototype1);
+		connectableMethod6.ParamsLength = 0;
+		connectableMethod6.SerializedParamsDefaultValues = "";
+		// 
+		// Result
+		// 
+		return connectableMethod6;
 	}
 }
 

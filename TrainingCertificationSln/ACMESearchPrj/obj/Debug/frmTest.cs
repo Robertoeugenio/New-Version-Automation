@@ -82,7 +82,7 @@ public sealed class frmTest : OpenSpan.Design.DesignForm
 		this.Controls.Add(this.btnTest);
 		this.Controls.Add(this.txtZipCode);
 		this.Controls.Add(this.lblZipCode);
-		this.Location = new System.Drawing.Point(529, 211);
+		this.Location = new System.Drawing.Point(1852, 187);
 		this.Name = "frmTest";
 		this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 		this.Text = "Design Form";

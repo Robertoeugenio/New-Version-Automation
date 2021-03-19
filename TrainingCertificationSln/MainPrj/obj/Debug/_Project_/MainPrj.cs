@@ -1,3 +1,5 @@
+using MainPrj_Main_E_btnNearestStore_Click = MainPrj.Main_E_btnNearestStore_Click;
+
 using MainPrj_Main_E_cmbGetAcct_SelectedIndexChanged = MainPrj.Main_E_cmbGetAcct_SelectedIndexChanged;
 
 using MainPrj_Main_E_IntMgr_InteractionActivated = MainPrj.Main_E_IntMgr_InteractionActivated;
@@ -483,6 +485,15 @@ public sealed class MainPrj : OpenSpan.Runtime.RuntimeProject
 			"xampleProject</Project>\n\t\t\t\t<Automation>StartInteraction</Automation>\n\t\t\t\t<Defau" +
 			"ltErrorMessage>Unable to start interaction</DefaultErrorMessage>\n\t\t\t</Config>\n\t\t" +
 			"</Plugin>\n\t</Plugins>\n</Interaction>\n";
+	}
+	
+	// Automator-8D8EA1DE921DBF4
+	public MainPrj_Main_E_btnNearestStore_Click Main_E_btnNearestStore_Click
+	{
+		get
+		{
+			return ((MainPrj_Main_E_btnNearestStore_Click)(this["Main_E_btnNearestStore_Click"]));
+		}
 	}
 	
 	// Automator-8D8E9EF00EDBAD0

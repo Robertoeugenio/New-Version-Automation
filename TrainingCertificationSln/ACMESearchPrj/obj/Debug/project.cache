@@ -27,6 +27,7 @@
         <BuildReference value="Pega.WinQueue.x64.dll" />
       </BuildReferences>
     </DesignComponent>
+    <DesignComponent id="Automator-8D8EA2234A8736A" className="ACME_E_GetNearestStore_ActivityStarted" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E5756E4A97C8" className="btnTestClicked" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="DesignForm-8D8E46A4FF4EC54" className="frmTest" type="WinForm" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E5714D065B0C" className="ACME_P_GetNearestStore" type="Automation" isPublic="True" screenShots="" />

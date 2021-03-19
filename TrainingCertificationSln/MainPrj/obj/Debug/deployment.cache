@@ -5,8 +5,6 @@
   </References>
   <Translators>
     <Translator value="OpenSpan.Adapters.Virtual.dll" />
-    <Translator value="OpenSpan.WinInet.x32.dll" />
-    <Translator value="OpenSpan.WinInet.x64.dll" />
   </Translators>
   <BuildReferences>
     <BuildReference value="RuntimeConfig.xml" />
@@ -32,16 +30,12 @@
     <BuildReference value="Pega.Windows.Broker.x64.dll" />
     <BuildReference value="Pega.WinQueue.x32.dll" />
     <BuildReference value="Pega.WinQueue.x64.dll" />
-    <BuildReference value="OpenSpan.Translators.InternetExplorer.x32.dll" />
-    <BuildReference value="OpenSpan.Translators.InternetExplorer.x64.dll" />
-    <BuildReference value="OpenSpan.WinInet.x32.dll" />
-    <BuildReference value="OpenSpan.WinInet.x64.dll" />
+    <BuildReference value="OpenSpan.Virtual.Interfaces.delegates.tlb" />
+    <BuildReference value="OpenSpan.Virtual.Interfaces.tlb" />
     <BuildReference value="Pega.ActiveX.x32.dll" />
     <BuildReference value="Pega.ActiveX.x64.dll" />
     <BuildReference value="Pega.Native.Remoting.x32.dll" />
     <BuildReference value="Pega.Native.Remoting.x64.dll" />
-    <BuildReference value="OpenSpan.Virtual.Interfaces.delegates.tlb" />
-    <BuildReference value="OpenSpan.Virtual.Interfaces.tlb" />
     <BuildReference value="Pega.Remoting.tlb" />
   </BuildReferences>
 </Cache>

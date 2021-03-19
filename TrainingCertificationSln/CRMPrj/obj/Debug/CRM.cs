@@ -167,6 +167,7 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		OpenSpan.Adapters.TextMatchData textmatchdata22 = new OpenSpan.Adapters.TextMatchData();
 		OpenSpan.Adapters.TextMatchData textmatchdata23 = new OpenSpan.Adapters.TextMatchData();
 		OpenSpan.Adapters.TextMatchData textmatchdata24 = new OpenSpan.Adapters.TextMatchData();
+		OpenSpan.ApplicationFramework.AssistedSignOn.Credential credential1 = new OpenSpan.ApplicationFramework.AssistedSignOn.Credential();
 		OpenSpan.Adapters.TextMatchData textmatchdata25 = new OpenSpan.Adapters.TextMatchData();
 		OpenSpan.Adapters.TextMatchData textmatchdata26 = new OpenSpan.Adapters.TextMatchData();
 		this.DotNet20Factory = new OpenSpan.Adapters.DotNet.DotNet20Factory();
@@ -706,6 +707,13 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		this.Controls.Add(this.ActiveXFactory);
 		this.Controls.Add(this.CRMfrmLogin);
 		this.Controls.Add(this.CRMfrmMain);
+		credential1.ApplicationKey = "CRM";
+		credential1.Category = null;
+		credential1.Group = null;
+		credential1.LoginControl = new OpenSpan.Design.ReferenceIdentity("WindowsAdapter-8D8DFE68142AF1E\\Button-8D8DFF16A0C389F");
+		credential1.PasswordControl = new OpenSpan.Design.ReferenceIdentity("WindowsAdapter-8D8DFE68142AF1E\\TextBox-8D8DFF1C7CECE46");
+		credential1.UserNameControl = new OpenSpan.Design.ReferenceIdentity("WindowsAdapter-8D8DFE68142AF1E\\TextBox-8D8DFF1BDF4C916");
+		this.Credentials.Add(credential1);
 		this.ExpressNativeTypes = null;
 		this.Extender = null;
 		this.FriendlyName = "CRM";

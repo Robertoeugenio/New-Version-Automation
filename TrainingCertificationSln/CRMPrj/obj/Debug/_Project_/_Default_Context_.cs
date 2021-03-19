@@ -21,7 +21,6 @@ namespace CRMPrj.Project
 			mName = "Default";
 			mIsDefault = true;
 			mContextType = OpenSpan.Solution.ContextType.Local;
-			base.DesignComponentTypes.Add("CRMPrj.ACMESearch");
 			base.DesignComponentTypes.Add("CRMPrj.CRM");
 			base.DesignComponentTypes.Add("CRMPrj.CRM_E_ActivateMDIWin_ActivityStarted");
 			base.DesignComponentTypes.Add("CRMPrj.CRM_E_CRMChild_Activated");

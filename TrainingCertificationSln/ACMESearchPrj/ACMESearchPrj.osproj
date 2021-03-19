@@ -104,6 +104,10 @@
       <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Controls.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="OpenSpan.Events, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Events.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="OpenSpan.ExpressTranslators, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.ExpressTranslators.dll</HintPath>
       <Private>False</Private>
@@ -126,6 +130,10 @@
     </Reference>
     <Reference Include="OpenSpan.Security, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
       <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenSpan.Server.Client, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
+      <HintPath>$(PEGA_STUDIO_PATH)\OpenSpan.Server.Client.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="OpenSpan.Virtual.Interfaces, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e">
@@ -211,6 +219,10 @@
     <Compile Include="ACMESystem.os">
       <SubType>Component</SubType>
       <Id>UniversalWebAdapter-8D8DE50B28552EF</Id>
+    </Compile>
+    <Compile Include="Events\ACME_E_GetNearestStore_ActivityStarted.os">
+      <SubType>Component</SubType>
+      <Id>Automator-8D8EA2234A8736A</Id>
     </Compile>
     <Compile Include="Events\btnTestClicked.os">
       <SubType>Component</SubType>

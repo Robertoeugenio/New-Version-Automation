@@ -1,5 +1,7 @@
 using ACMESearchPrj_ACMESystem = ACMESearchPrj.ACMESystem;
 
+using ACMESearchPrj_ACME_E_GetNearestStore_ActivityStarted = ACMESearchPrj.ACME_E_GetNearestStore_ActivityStarted;
+
 using ACMESearchPrj_btnTestClicked = ACMESearchPrj.btnTestClicked;
 
 using ACMESearchPrj_frmTest = ACMESearchPrj.frmTest;
@@ -492,6 +494,15 @@ public sealed class ACMESearchPrj : OpenSpan.Runtime.RuntimeProject
 		get
 		{
 			return ((ACMESearchPrj_ACMESystem)(this["ACMESystem"]));
+		}
+	}
+	
+	// Automator-8D8EA2234A8736A
+	public ACMESearchPrj_ACME_E_GetNearestStore_ActivityStarted ACME_E_GetNearestStore_ActivityStarted
+	{
+		get
+		{
+			return ((ACMESearchPrj_ACME_E_GetNearestStore_ActivityStarted)(this["ACME_E_GetNearestStore_ActivityStarted"]));
 		}
 	}
 	

@@ -33,7 +33,7 @@
             <Text Value="ACME Nearest Store" />
             <Content Name="Controls">
               <Items>
-                <System.Windows.Forms.Button Name="MainbtnNearestStor" Id="Button-8D8E7C1BB733837">
+                <System.Windows.Forms.Button Name="MainbtnNearestStore" Id="Button-8D8E7C1BB733837">
                   <ForeColor Value="Desktop" />
                   <Location Value="77, 31" />
                   <Size Value="87, 23" />

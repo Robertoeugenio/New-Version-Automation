@@ -17,7 +17,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 	public System.Windows.Forms.GroupBox MaingboxNearestStore;
 	
 	[OpenSpan.Design.ComponentIdentityAttribute("DesignForm-8D8E7C0F2493EDE\\Button-8D8E7C1BB733837")]
-	public System.Windows.Forms.Button MainbtnNearestStor;
+	public System.Windows.Forms.Button MainbtnNearestStore;
 	
 	[OpenSpan.Design.ComponentIdentityAttribute("DesignForm-8D8E7C0F2493EDE\\Label-8D8E7C1639A6C9E")]
 	public System.Windows.Forms.Label MainlblNearestStore;
@@ -74,7 +74,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		// Setup field members
 		// 
 		this.MaingboxNearestStore = new System.Windows.Forms.GroupBox();
-		this.MainbtnNearestStor = new System.Windows.Forms.Button();
+		this.MainbtnNearestStore = new System.Windows.Forms.Button();
 		this.MainlblNearestStore = new System.Windows.Forms.Label();
 		this.MaincmbGetAcct = new System.Windows.Forms.ComboBox();
 		this.MaintxtZip = new System.Windows.Forms.TextBox();
@@ -104,7 +104,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		// Set component Ids
 		// 
 		this.SetId(this.MaingboxNearestStore, new OpenSpan.Design.ComponentIdentity("GroupBox-8D8E7C1AA633053"));
-		this.SetId(this.MainbtnNearestStor, new OpenSpan.Design.ComponentIdentity("Button-8D8E7C1BB733837"));
+		this.SetId(this.MainbtnNearestStore, new OpenSpan.Design.ComponentIdentity("Button-8D8E7C1BB733837"));
 		this.SetId(this.MainlblNearestStore, new OpenSpan.Design.ComponentIdentity("Label-8D8E7C1639A6C9E"));
 		this.SetId(this.MaincmbGetAcct, new OpenSpan.Design.ComponentIdentity("ComboBox-8D8E7C192C47F16"));
 		this.SetId(this.MaintxtZip, new OpenSpan.Design.ComponentIdentity("TextBox-8D8E7C185B33A6A"));
@@ -131,15 +131,15 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		// MaingboxNearestStore
 		// 
 		// 
-		// MainbtnNearestStor
+		// MainbtnNearestStore
 		// 
-		this.MainbtnNearestStor.ForeColor = System.Drawing.SystemColors.Desktop;
-		this.MainbtnNearestStor.Location = new System.Drawing.Point(77, 31);
-		this.MainbtnNearestStor.Name = "MainbtnNearestStor";
-		this.MainbtnNearestStor.Size = new System.Drawing.Size(87, 23);
-		this.MainbtnNearestStor.TabIndex = 0;
-		this.MainbtnNearestStor.Text = "Find Store";
-		this.MainbtnNearestStor.UseVisualStyleBackColor = true;
+		this.MainbtnNearestStore.ForeColor = System.Drawing.SystemColors.Desktop;
+		this.MainbtnNearestStore.Location = new System.Drawing.Point(77, 31);
+		this.MainbtnNearestStore.Name = "MainbtnNearestStore";
+		this.MainbtnNearestStore.Size = new System.Drawing.Size(87, 23);
+		this.MainbtnNearestStore.TabIndex = 0;
+		this.MainbtnNearestStore.Text = "Find Store";
+		this.MainbtnNearestStore.UseVisualStyleBackColor = true;
 		// 
 		// MainlblNearestStore
 		// 
@@ -149,7 +149,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		this.MainlblNearestStore.Size = new System.Drawing.Size(27, 13);
 		this.MainlblNearestStore.TabIndex = 7;
 		this.MainlblNearestStore.Text = "-----";
-		this.MaingboxNearestStore.Controls.Add(this.MainbtnNearestStor);
+		this.MaingboxNearestStore.Controls.Add(this.MainbtnNearestStore);
 		this.MaingboxNearestStore.Controls.Add(this.MainlblNearestStore);
 		this.MaingboxNearestStore.Location = new System.Drawing.Point(316, 31);
 		this.MaingboxNearestStore.Name = "MaingboxNearestStore";
@@ -295,7 +295,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		this.Controls.Add(this.MainlblCurrentAcct);
 		this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
 		this.ForeColor = System.Drawing.SystemColors.Highlight;
-		this.Location = new System.Drawing.Point(386, 151);
+		this.Location = new System.Drawing.Point(1709, 127);
 		this.Name = "frmCustInfo";
 		this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 		this.Text = "Customer information";
@@ -309,7 +309,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		// 
 		this.mComponents = new System.Collections.Generic.List<System.ComponentModel.IComponent>(20);
 		this.Components.Add(this.MaingboxNearestStore);
-		this.Components.Add(this.MainbtnNearestStor);
+		this.Components.Add(this.MainbtnNearestStore);
 		this.Components.Add(this.MainlblNearestStore);
 		this.Components.Add(this.MaincmbGetAcct);
 		this.Components.Add(this.MaintxtZip);
@@ -358,18 +358,18 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
 		System.Windows.Forms.GroupBox MaingboxNearestStore = new System.Windows.Forms.GroupBox();
 		this.SetId(MaingboxNearestStore, new OpenSpan.Design.ComponentIdentity("GroupBox-8D8E7C1AA633053"));
-		System.Windows.Forms.Button MainbtnNearestStor;
-		MainbtnNearestStor = new System.Windows.Forms.Button();
+		System.Windows.Forms.Button MainbtnNearestStore;
+		MainbtnNearestStore = new System.Windows.Forms.Button();
 		// 
-		// MainbtnNearestStor
+		// MainbtnNearestStore
 		// 
-		MainbtnNearestStor.ForeColor = System.Drawing.SystemColors.Desktop;
-		MainbtnNearestStor.Location = new System.Drawing.Point(77, 31);
-		MainbtnNearestStor.Name = "MainbtnNearestStor";
-		MainbtnNearestStor.Size = new System.Drawing.Size(87, 23);
-		MainbtnNearestStor.TabIndex = 0;
-		MainbtnNearestStor.Text = "Find Store";
-		MainbtnNearestStor.UseVisualStyleBackColor = true;
+		MainbtnNearestStore.ForeColor = System.Drawing.SystemColors.Desktop;
+		MainbtnNearestStore.Location = new System.Drawing.Point(77, 31);
+		MainbtnNearestStore.Name = "MainbtnNearestStore";
+		MainbtnNearestStore.Size = new System.Drawing.Size(87, 23);
+		MainbtnNearestStore.TabIndex = 0;
+		MainbtnNearestStore.Text = "Find Store";
+		MainbtnNearestStore.UseVisualStyleBackColor = true;
 		System.Windows.Forms.Label MainlblNearestStore;
 		MainlblNearestStore = new System.Windows.Forms.Label();
 		// 
@@ -381,7 +381,7 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		MainlblNearestStore.Size = new System.Drawing.Size(27, 13);
 		MainlblNearestStore.TabIndex = 7;
 		MainlblNearestStore.Text = "-----";
-		MaingboxNearestStore.Controls.Add(MainbtnNearestStor);
+		MaingboxNearestStore.Controls.Add(MainbtnNearestStore);
 		MaingboxNearestStore.Controls.Add(MainlblNearestStore);
 		MaingboxNearestStore.Location = new System.Drawing.Point(316, 31);
 		MaingboxNearestStore.Name = "MaingboxNearestStore";
@@ -392,12 +392,12 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		// 
 		// Set designComp Ids
 		// 
-		this.SetId(MainbtnNearestStor, new OpenSpan.Design.ComponentIdentity("Button-8D8E7C1BB733837"));
+		this.SetId(MainbtnNearestStore, new OpenSpan.Design.ComponentIdentity("Button-8D8E7C1BB733837"));
 		this.SetId(MainlblNearestStore, new OpenSpan.Design.ComponentIdentity("Label-8D8E7C1639A6C9E"));
 		// 
 		// Add components
 		// 
-		components.Add(MainbtnNearestStor);
+		components.Add(MainbtnNearestStore);
 		components.Add(MainlblNearestStore);
 		// 
 		// Result
@@ -405,22 +405,22 @@ public sealed class frmCustInfo : OpenSpan.Design.DesignForm
 		return MaingboxNearestStore;
 	}
 	
-	internal System.Windows.Forms.Button Create_MainbtnNearestStor(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	internal System.Windows.Forms.Button Create_MainbtnNearestStore(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
 	{
 		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
-		System.Windows.Forms.Button MainbtnNearestStor = new System.Windows.Forms.Button();
-		this.SetId(MainbtnNearestStor, new OpenSpan.Design.ComponentIdentity("Button-8D8E7C1BB733837"));
-		MainbtnNearestStor.ForeColor = System.Drawing.SystemColors.Desktop;
-		MainbtnNearestStor.Location = new System.Drawing.Point(77, 31);
-		MainbtnNearestStor.Name = "MainbtnNearestStor";
-		MainbtnNearestStor.Size = new System.Drawing.Size(87, 23);
-		MainbtnNearestStor.TabIndex = 0;
-		MainbtnNearestStor.Text = "Find Store";
-		MainbtnNearestStor.UseVisualStyleBackColor = true;
+		System.Windows.Forms.Button MainbtnNearestStore = new System.Windows.Forms.Button();
+		this.SetId(MainbtnNearestStore, new OpenSpan.Design.ComponentIdentity("Button-8D8E7C1BB733837"));
+		MainbtnNearestStore.ForeColor = System.Drawing.SystemColors.Desktop;
+		MainbtnNearestStore.Location = new System.Drawing.Point(77, 31);
+		MainbtnNearestStore.Name = "MainbtnNearestStore";
+		MainbtnNearestStore.Size = new System.Drawing.Size(87, 23);
+		MainbtnNearestStore.TabIndex = 0;
+		MainbtnNearestStore.Text = "Find Store";
+		MainbtnNearestStore.UseVisualStyleBackColor = true;
 		// 
 		// Result
 		// 
-		return MainbtnNearestStor;
+		return MainbtnNearestStore;
 	}
 	
 	internal System.Windows.Forms.Label Create_MainlblNearestStore(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)

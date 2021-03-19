@@ -1,5 +1,3 @@
-using CRMPrj_ACMESearch = CRMPrj.ACMESearch;
-
 using CRMPrj_CRM = CRMPrj.CRM;
 
 using CRMPrj_CRM_E_ActivateMDIWin_ActivityStarted = CRMPrj.CRM_E_ActivateMDIWin_ActivityStarted;
@@ -488,15 +486,6 @@ public sealed class CRMPrj : OpenSpan.Runtime.RuntimeProject
 			"xampleProject</Project>\n\t\t\t\t<Automation>StartInteraction</Automation>\n\t\t\t\t<Defau" +
 			"ltErrorMessage>Unable to start interaction</DefaultErrorMessage>\n\t\t\t</Config>\n\t\t" +
 			"</Plugin>\n\t</Plugins>\n</Interaction>\n";
-	}
-	
-	// WebAdapter-8D8DE2BB139348E
-	public CRMPrj_ACMESearch ACMESearch
-	{
-		get
-		{
-			return ((CRMPrj_ACMESearch)(this["ACMESearch"]));
-		}
 	}
 	
 	// WindowsAdapter-8D8DFE68142AF1E

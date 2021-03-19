@@ -14,6 +14,12 @@ public sealed class _GC_ACME : OpenSpan.Automation.GlobalContainer
 	[OpenSpan.Design.ComponentIdentityAttribute("GlobalContainer-8D8E855CDDFD15A\\InteractionManager-8D8E855F03E4508")]
 	public OpenSpan.Interactions.Controls.InteractionManager IntMgr;
 	
+	[OpenSpan.Design.ComponentIdentityAttribute("GlobalContainer-8D8E855CDDFD15A\\Activity-8D8EA1DB27A26AB")]
+	public OpenSpan.Interactions.Controls.Activity ACMEactGetNearestStore;
+	
+	[OpenSpan.Design.ComponentIdentityAttribute("GlobalContainer-8D8E855CDDFD15A\\AsoManager-8D8EA382D97EB6D")]
+	public OpenSpan.ApplicationFramework.AssistedSignOn.AsoManager asoManager1;
+	
 	public _GC_ACME()
 	{
 		// 
@@ -38,7 +44,19 @@ public sealed class _GC_ACME : OpenSpan.Automation.GlobalContainer
 		OpenSpan.DynamicMembers.DynamicEventInfo dynamiceventinfo5 = new OpenSpan.DynamicMembers.DynamicEventInfo();
 		OpenSpan.DynamicMembers.DynamicEventInfo dynamiceventinfo6 = new OpenSpan.DynamicMembers.DynamicEventInfo();
 		OpenSpan.DynamicMembers.DynamicEventInfo dynamiceventinfo7 = new OpenSpan.DynamicMembers.DynamicEventInfo();
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo8 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo9 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo1 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo2 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo3 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo4 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo5 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo6 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo7 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo8 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
 		this.IntMgr = new OpenSpan.Interactions.Controls.InteractionManager();
+		this.ACMEactGetNearestStore = new OpenSpan.Interactions.Controls.Activity();
+		this.asoManager1 = new OpenSpan.ApplicationFramework.AssistedSignOn.AsoManager();
 		// 
 		// Initialize design component
 		// 
@@ -51,6 +69,8 @@ public sealed class _GC_ACME : OpenSpan.Automation.GlobalContainer
 		// Set component Ids
 		// 
 		this.SetId(this.IntMgr, new OpenSpan.Design.ComponentIdentity("InteractionManager-8D8E855F03E4508"));
+		this.SetId(this.ACMEactGetNearestStore, new OpenSpan.Design.ComponentIdentity("Activity-8D8EA1DB27A26AB"));
+		this.SetId(this.asoManager1, new OpenSpan.Design.ComponentIdentity("AsoManager-8D8EA382D97EB6D"));
 		// 
 		// _GC_ACME
 		// 
@@ -141,10 +161,67 @@ public sealed class _GC_ACME : OpenSpan.Automation.GlobalContainer
 		this.IntMgr.TableSchema = resources.GetString("IntMgr.TableSchema");
 		this.IntMgr.UseKeys = true;
 		// 
+		// ACMEactGetNearestStore
+		// 
+		this.ACMEactGetNearestStore.ActivityName = "GetNearestStore";
+		dynamicpropertyinfo8.IsSerializable = true;
+		dynamicpropertyinfo8.NoInputConvesion = false;
+		dynamicpropertyinfo8.Source = "";
+		dynamicpropertyinfo8.ValidateConnectionCallback = null;
+		dynamicpropertyinfo8.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo8.CodeDomData = resources.GetString("__GC_ACME_16_");
+		dynamicpropertyinfo9.IsSerializable = true;
+		dynamicpropertyinfo9.NoInputConvesion = false;
+		dynamicpropertyinfo9.Source = "";
+		dynamicpropertyinfo9.ValidateConnectionCallback = null;
+		dynamicpropertyinfo9.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo9.CodeDomData = resources.GetString("__GC_ACME_17_");
+		dynamicmethodinfo1.Source = "";
+		dynamicmethodinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo1.CodeDomData = resources.GetString("__GC_ACME_18_");
+		dynamicmethodinfo2.Source = "";
+		dynamicmethodinfo2.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo2.CodeDomData = resources.GetString("__GC_ACME_19_");
+		dynamicmethodinfo3.Source = "";
+		dynamicmethodinfo3.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo3.CodeDomData = resources.GetString("__GC_ACME_20_");
+		dynamicmethodinfo4.Source = "";
+		dynamicmethodinfo4.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo4.CodeDomData = resources.GetString("__GC_ACME_21_");
+		dynamicmethodinfo5.Source = "";
+		dynamicmethodinfo5.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo5.CodeDomData = resources.GetString("__GC_ACME_22_");
+		dynamicmethodinfo6.Source = "";
+		dynamicmethodinfo6.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo6.CodeDomData = resources.GetString("__GC_ACME_23_");
+		dynamicmethodinfo7.Source = "";
+		dynamicmethodinfo7.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo7.CodeDomData = resources.GetString("__GC_ACME_24_");
+		dynamicmethodinfo8.Source = "";
+		dynamicmethodinfo8.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo8.CodeDomData = resources.GetString("__GC_ACME_25_");
+		this.ACMEactGetNearestStore.DynamicMembers.Add(dynamicpropertyinfo8);
+		this.ACMEactGetNearestStore.DynamicMembers.Add(dynamicpropertyinfo9);
+		this.ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo1);
+		this.ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo2);
+		this.ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo3);
+		this.ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo4);
+		this.ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo5);
+		this.ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo6);
+		this.ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo7);
+		this.ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo8);
+		// 
+		// asoManager1
+		// 
+		this.asoManager1.Enable = false;
+		this.asoManager1.QueueActivity = false;
+		// 
 		// Add components
 		// 
 		this.mComponents = new System.Collections.Generic.List<System.ComponentModel.IComponent>(20);
 		this.Components.Add(this.IntMgr);
+		this.Components.Add(this.ACMEactGetNearestStore);
+		this.Components.Add(this.asoManager1);
 	}
 	
 	private System.Collections.Generic.List<System.ComponentModel.IComponent> mComponents;
@@ -277,6 +354,88 @@ public sealed class _GC_ACME : OpenSpan.Automation.GlobalContainer
 		// Result
 		// 
 		return IntMgr;
+	}
+	
+	internal OpenSpan.Interactions.Controls.Activity Create_ACMEactGetNearestStore(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		System.ComponentModel.ComponentResourceManager _resources_ = new System.ComponentModel.ComponentResourceManager(typeof(_GC_ACME));
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.Interactions.Controls.Activity ACMEactGetNearestStore = new OpenSpan.Interactions.Controls.Activity();
+		this.SetId(ACMEactGetNearestStore, new OpenSpan.Design.ComponentIdentity("Activity-8D8EA1DB27A26AB"));
+		ACMEactGetNearestStore.ActivityName = "GetNearestStore";
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo1 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		dynamicpropertyinfo1.IsSerializable = true;
+		dynamicpropertyinfo1.NoInputConvesion = false;
+		dynamicpropertyinfo1.Source = "";
+		dynamicpropertyinfo1.ValidateConnectionCallback = null;
+		dynamicpropertyinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo1.CodeDomData = _resources_.GetString("__GC_ACME_16_");
+		OpenSpan.DynamicMembers.DynamicPropertyInfo dynamicpropertyinfo2 = new OpenSpan.DynamicMembers.DynamicPropertyInfo();
+		dynamicpropertyinfo2.IsSerializable = true;
+		dynamicpropertyinfo2.NoInputConvesion = false;
+		dynamicpropertyinfo2.Source = "";
+		dynamicpropertyinfo2.ValidateConnectionCallback = null;
+		dynamicpropertyinfo2.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicpropertyinfo2.CodeDomData = _resources_.GetString("__GC_ACME_17_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo1 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo1.Source = "";
+		dynamicmethodinfo1.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo1.CodeDomData = _resources_.GetString("__GC_ACME_18_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo2 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo2.Source = "";
+		dynamicmethodinfo2.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo2.CodeDomData = _resources_.GetString("__GC_ACME_19_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo3 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo3.Source = "";
+		dynamicmethodinfo3.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo3.CodeDomData = _resources_.GetString("__GC_ACME_20_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo4 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo4.Source = "";
+		dynamicmethodinfo4.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo4.CodeDomData = _resources_.GetString("__GC_ACME_21_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo5 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo5.Source = "";
+		dynamicmethodinfo5.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo5.CodeDomData = _resources_.GetString("__GC_ACME_22_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo6 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo6.Source = "";
+		dynamicmethodinfo6.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo6.CodeDomData = _resources_.GetString("__GC_ACME_23_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo7 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo7.Source = "";
+		dynamicmethodinfo7.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo7.CodeDomData = _resources_.GetString("__GC_ACME_24_");
+		OpenSpan.DynamicMembers.DynamicMethodInfo dynamicmethodinfo8 = new OpenSpan.DynamicMembers.DynamicMethodInfo();
+		dynamicmethodinfo8.Source = "";
+		dynamicmethodinfo8.Visibility = OpenSpan.TypeManagement.MemberVisibilityLevel.DefaultOn;
+		dynamicmethodinfo8.CodeDomData = _resources_.GetString("__GC_ACME_25_");
+		ACMEactGetNearestStore.DynamicMembers.Add(dynamicpropertyinfo1);
+		ACMEactGetNearestStore.DynamicMembers.Add(dynamicpropertyinfo2);
+		ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo1);
+		ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo2);
+		ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo3);
+		ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo4);
+		ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo5);
+		ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo6);
+		ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo7);
+		ACMEactGetNearestStore.DynamicMembers.Add(dynamicmethodinfo8);
+		// 
+		// Result
+		// 
+		return ACMEactGetNearestStore;
+	}
+	
+	internal OpenSpan.ApplicationFramework.AssistedSignOn.AsoManager Create_asoManager1(out System.Collections.Generic.ICollection<System.ComponentModel.IComponent> components)
+	{
+		components = new System.Collections.Generic.List<System.ComponentModel.IComponent>();
+		OpenSpan.ApplicationFramework.AssistedSignOn.AsoManager asoManager1 = new OpenSpan.ApplicationFramework.AssistedSignOn.AsoManager();
+		this.SetId(asoManager1, new OpenSpan.Design.ComponentIdentity("AsoManager-8D8EA382D97EB6D"));
+		asoManager1.Enable = false;
+		asoManager1.QueueActivity = false;
+		// 
+		// Result
+		// 
+		return asoManager1;
 	}
 }
 

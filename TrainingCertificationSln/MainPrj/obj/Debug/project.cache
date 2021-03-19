@@ -1,6 +1,7 @@
 <Cache>
   <Project configuration="" />
   <DesignComponents>
+    <DesignComponent id="Automator-8D8EA1DE921DBF4" className="Main_E_btnNearestStore_Click" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E9EF00EDBAD0" className="Main_E_cmbGetAcct_SelectedIndexChanged" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E93EC0618B26" className="Main_E_IntMgr_InteractionActivated" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E886C9690BDF" className="Main_E_IntMgr_InteractionClosed" type="Automation" isPublic="True" screenShots="" />
