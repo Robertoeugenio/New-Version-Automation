@@ -12,5 +12,6 @@
     <DesignComponent id="Automator-8D8EABA24043DC4" className="insira__Main_E_IntMgr_TextChanged" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8EAB2264A4B95" className="Main_E_actGetNearestStore_ActivityCompleted" type="Automation" isPublic="True" screenShots="" />
     <DesignComponent id="Automator-8D8E8980668067B" className="Main_P_LoadCustInfoValues" type="Automation" isPublic="True" screenShots="" />
+    <DesignComponent id="ProjectConfiguration-8D8EAEF6C9651BF" className="PilotConfig" type="Configuration" isPublic="False" screenShots="" />
   </DesignComponents>
 </Cache>

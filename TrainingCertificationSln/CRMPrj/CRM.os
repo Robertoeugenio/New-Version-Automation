@@ -49,8 +49,8 @@
   </ComponentInfo>
   <Component Version="1.0">
     <OpenSpan.Adapters.Windows.WindowsAdapter Name="CRM" Id="WindowsAdapter-8D8DFE68142AF1E">
-      <Path Value="C:\Program Files (x86)\Openspan\CRM Setup\CRM.exe" />
-      <WorkingDirectory Value="C:\Program Files (x86)\Openspan\CRM Setup" />
+      <Path Value="C:\Program Files\Pegasystems\CRM Setup\CRM.exe" />
+      <WorkingDirectory Value="C:\Program Files\Pegasystems\CRM Setup" />
       <Content Name="Controls">
         <Items>
           <OpenSpan.Adapters.DotNet.DotNet20Factory Name="DotNet20Factory" Id="DotNet20Factory-8D8DFE6930D8949">

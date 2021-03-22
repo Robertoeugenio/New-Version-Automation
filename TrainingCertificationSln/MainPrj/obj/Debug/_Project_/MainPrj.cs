@@ -20,6 +20,8 @@ using MainPrj_Main_E_actGetNearestStore_ActivityCompleted = MainPrj.Main_E_actGe
 
 using MainPrj_Main_P_LoadCustInfoValues = MainPrj.Main_P_LoadCustInfoValues;
 
+using MainPrj_PilotConfig = MainPrj.PilotConfig;
+
 using System;
 
 namespace MainPrj.Project
@@ -30,7 +32,7 @@ namespace MainPrj.Project
 /// </summary>
 [OpenSpan.Design.TargetEnvironmentAttribute(OpenSpan.Design.TargetEnvironment.Driver)]
 [OpenSpan.Design.ComponentIdentityAttribute("Project-8D8E7C0E1F4164A")]
-[OpenSpan.Design.DeploymentVersionAttribute("1.0")]
+[OpenSpan.Design.DeploymentVersionAttribute("1.1")]
 [OpenSpan.Design.ProjectDescriptorAttribute(OpenSpan.Design.ProjectDescriptorType.Present)]
 public sealed class MainPrj : OpenSpan.Runtime.RuntimeProject
 {
@@ -124,7 +126,7 @@ public sealed class MainPrj : OpenSpan.Runtime.RuntimeProject
 	{
 		this.mId = new OpenSpan.Design.ComponentIdentity("Project-8D8E7C0E1F4164A");
 		this.mVersion = new System.Version("19.1.75.0");
-		this.mDeploymentVersion = "1.0";
+		this.mDeploymentVersion = "1.1";
 		this.mTransformationVersion = new System.Version("19.1.0.25");
 		this.mTargetEnvironment = OpenSpan.Design.TargetEnvironment.Driver;
 		this.mInteractionConfigXml = "<Interaction Name=\"Call\" xmlns:json=\'http://james.newtonking.com/projects/json\'>\n" +
@@ -587,6 +589,15 @@ public sealed class MainPrj : OpenSpan.Runtime.RuntimeProject
 		get
 		{
 			return ((MainPrj_Main_P_LoadCustInfoValues)(this["Main_P_LoadCustInfoValues"]));
+		}
+	}
+	
+	// ProjectConfiguration-8D8EAEF6C9651BF
+	private MainPrj_PilotConfig PilotConfig
+	{
+		get
+		{
+			return ((MainPrj_PilotConfig)(this["PilotConfig"]));
 		}
 	}
 }

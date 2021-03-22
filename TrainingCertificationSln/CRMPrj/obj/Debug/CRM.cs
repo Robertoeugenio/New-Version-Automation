@@ -718,11 +718,11 @@ public sealed class CRM : OpenSpan.Adapters.Windows.WindowsAdapter
 		this.Extender = null;
 		this.FriendlyName = "CRM";
 		this.Name = "CRM";
-		this.Path = "C:\\Program Files (x86)\\Openspan\\CRM Setup\\CRM.exe";
+		this.Path = "C:\\Program Files\\Pegasystems\\CRM Setup\\CRM.exe";
 		this.ReasonAdapterNotReady = null;
 		this.StartMyDay = OpenSpan.ApplicationFramework.StartMyDay.StartOptions.None;
 		this.StartMyDayControls = null;
-		this.WorkingDirectory = "C:\\Program Files (x86)\\Openspan\\CRM Setup";
+		this.WorkingDirectory = "C:\\Program Files\\Pegasystems\\CRM Setup";
 		this.XrayMasterNames = null;
 		// 
 		// virtualControlNativeControlNameMat9

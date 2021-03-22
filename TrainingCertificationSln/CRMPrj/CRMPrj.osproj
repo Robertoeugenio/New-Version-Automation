@@ -259,6 +259,11 @@
       <Id>Automator-8D8E9FF30BC29B6</Id>
     </Compile>
     <Compile Include="Extensions\TextBox1.cs" />
+    <Compile Include="PilotConfig.os">
+      <SubType>Component</SubType>
+      <Id>ProjectConfiguration-8D8EAEF8675DC32</Id>
+      <SolutionItemType>OpenSpan.Studio.Solution.ConfigurationSolutionItem, OpenSpan.Studio</SolutionItemType>
+    </Compile>
     <Compile Include="_GC_CRM.os">
       <SubType>Component</SubType>
       <Id>GlobalContainer-8D8E7CA979738F7</Id>

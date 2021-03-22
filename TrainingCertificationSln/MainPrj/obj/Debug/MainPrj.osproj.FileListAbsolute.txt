@@ -1,8 +1,6 @@
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\ACMESearchPrj.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\CRMPrj.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\OpenSpan.Adapters.Virtual.dll
-C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\ACMESearchPrj.ScreenShots.dll
-C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\CRMPrj.ScreenShots.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\RuntimeConfig.xml
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\DefaultWindowFactoryConfiguration.xml
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\openspan.ini
@@ -78,3 +76,6 @@ C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificat
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\MainPrj.osproj.GenerateResource.Cache
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\MainPrj.dll
 C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\MainPrj.pdb
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\obj\Debug\MessageManifest.resources
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\ACMESearchPrj.ScreenShots.dll
+C:\Users\Roberto\Documents\TrainingAutomation-master\Projects\TrainingCertificationSln\MainPrj\bin\Debug\CRMPrj.ScreenShots.dll

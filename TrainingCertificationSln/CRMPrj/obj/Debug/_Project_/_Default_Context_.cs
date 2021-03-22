@@ -29,6 +29,7 @@ namespace CRMPrj.Project
 			base.DesignComponentTypes.Add("CRMPrj.CRM_E_CRMfrmLogin_Created");
 			base.DesignComponentTypes.Add("CRMPrj.CRM_E_GetCustInfo_ActivityStarted");
 			base.DesignComponentTypes.Add("CRMPrj.CRM_E_IntMgr_InteractionStarted");
+			base.DesignComponentTypes.Add("CRMPrj.PilotConfig");
 			base.DesignComponentTypes.Add("CRMPrj._GC_CRM");
 		}
 	}

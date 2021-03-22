@@ -1,5 +1,3 @@
-using CRMPrj_CRM = CRMPrj.CRM;
-
 using CRMPrj_CRM_E_ActivateMDIWin_ActivityStarted = CRMPrj.CRM_E_ActivateMDIWin_ActivityStarted;
 
 using CRMPrj_CRM_E_CRMChild_Activated = CRMPrj.CRM_E_CRMChild_Activated;
@@ -15,6 +13,10 @@ using CRMPrj_CRM_E_GetCustInfo_ActivityStarted = CRMPrj.CRM_E_GetCustInfo_Activi
 using CRMPrj_CRM_E_IntMgr_InteractionStarted = CRMPrj.CRM_E_IntMgr_InteractionStarted;
 
 using CRMPrj__GC_CRM = CRMPrj._GC_CRM;
+
+using CRMPrj_CRM = CRMPrj.CRM;
+
+using CRMPrj_PilotConfig = CRMPrj.PilotConfig;
 
 using System;
 
@@ -488,15 +490,6 @@ public sealed class CRMPrj : OpenSpan.Runtime.RuntimeProject
 			"</Plugin>\n\t</Plugins>\n</Interaction>\n";
 	}
 	
-	// WindowsAdapter-8D8DFE68142AF1E
-	public CRMPrj_CRM CRM
-	{
-		get
-		{
-			return ((CRMPrj_CRM)(this["CRM"]));
-		}
-	}
-	
 	// Automator-8D8E9F13C79928C
 	public CRMPrj_CRM_E_ActivateMDIWin_ActivityStarted CRM_E_ActivateMDIWin_ActivityStarted
 	{
@@ -566,6 +559,24 @@ public sealed class CRMPrj : OpenSpan.Runtime.RuntimeProject
 		get
 		{
 			return ((CRMPrj__GC_CRM)(this["_GC_CRM"]));
+		}
+	}
+	
+	// WindowsAdapter-8D8DFE68142AF1E
+	public CRMPrj_CRM CRM
+	{
+		get
+		{
+			return ((CRMPrj_CRM)(this["CRM"]));
+		}
+	}
+	
+	// ProjectConfiguration-8D8EAEF8675DC32
+	private CRMPrj_PilotConfig PilotConfig
+	{
+		get
+		{
+			return ((CRMPrj_PilotConfig)(this["PilotConfig"]));
 		}
 	}
 }

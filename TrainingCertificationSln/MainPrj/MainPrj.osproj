@@ -35,8 +35,8 @@
     <NoWarn>108</NoWarn>
     <!-- Deployment -->
     <DeploymentPackage>True</DeploymentPackage>
-    <DeploymentPath>bin\Debug\</DeploymentPath>
-    <DeploymentVersion>1.0</DeploymentVersion>
+    <DeploymentPath>bin\Pilot\</DeploymentPath>
+    <DeploymentVersion>1.1</DeploymentVersion>
     <DeploymentVersionIncrement>True</DeploymentVersionIncrement>
     <DeploymentIncludeRunSettings>False</DeploymentIncludeRunSettings>
     <DeploymentTranslators>False</DeploymentTranslators>
@@ -169,6 +169,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\ImportTypeMap.resx" />
+    <EmbeddedResource Include="Properties\MessageManifest.resx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Events\insira  Main_E_IntMgr_TextChanged.os">
@@ -206,6 +207,11 @@
     <Compile Include="frmCustInfo.os">
       <SubType>Component</SubType>
       <Id>DesignForm-8D8E7C0F2493EDE</Id>
+    </Compile>
+    <Compile Include="PilotConfig.os">
+      <SubType>Component</SubType>
+      <Id>ProjectConfiguration-8D8EAEF6C9651BF</Id>
+      <SolutionItemType>OpenSpan.Studio.Solution.ConfigurationSolutionItem, OpenSpan.Studio</SolutionItemType>
     </Compile>
     <Compile Include="Procedures\Main_P_LoadCustInfoValues.os">
       <SubType>Component</SubType>
